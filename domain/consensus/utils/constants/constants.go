@@ -13,10 +13,10 @@ const (
 	MaxScriptPublicKeyVersion uint16 = 0
 
 	// SompiPerBugna is the number of sompi in one bugna (1 BGA).
-	SompiPerBugna = 1_000_000_000
+	SompiPerBugna = 100_000_000
 
 	// MaxSompi is the maximum transaction amount allowed in sompi.
-	MaxSompi = uint64(1_000_000_000 * SompiPerBugna)
+	MaxSompi = uint64(105_000_000_000 * SompiPerBugna)
 
 	// MaxTxInSequenceNum is the maximum sequence number the sequence field
 	// of a transaction input can be.
