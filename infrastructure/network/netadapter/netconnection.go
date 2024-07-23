@@ -2,13 +2,13 @@ package netadapter
 
 import (
 	"fmt"
-	"github.com/bugnanetwork/bugnad/app/appmessage"
-	routerpkg "github.com/bugnanetwork/bugnad/infrastructure/network/netadapter/router"
+	"github.com/wombatlabs/bugnad/app/appmessage"
+	routerpkg "github.com/wombatlabs/bugnad/infrastructure/network/netadapter/router"
 	"github.com/pkg/errors"
 	"sync/atomic"
 
-	"github.com/bugnanetwork/bugnad/infrastructure/network/netadapter/id"
-	"github.com/bugnanetwork/bugnad/infrastructure/network/netadapter/server"
+	"github.com/wombatlabs/bugnad/infrastructure/network/netadapter/id"
+	"github.com/wombatlabs/bugnad/infrastructure/network/netadapter/server"
 )
 
 // NetConnection is a wrapper to a server connection for use by services external to NetAdapter

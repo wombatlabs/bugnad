@@ -1,8 +1,8 @@
 package rpc
 
 import (
-	"github.com/bugnanetwork/bugnad/infrastructure/logger"
-	"github.com/bugnanetwork/bugnad/util/panics"
+	"github.com/wombatlabs/bugnad/infrastructure/logger"
+	"github.com/wombatlabs/bugnad/util/panics"
 )
 
 // log is a logger that is initialized with no output filters. This

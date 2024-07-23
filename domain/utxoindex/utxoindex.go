@@ -1,10 +1,10 @@
 package utxoindex
 
 import (
-	"github.com/bugnanetwork/bugnad/domain"
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
-	"github.com/bugnanetwork/bugnad/infrastructure/db/database"
-	"github.com/bugnanetwork/bugnad/infrastructure/logger"
+	"github.com/wombatlabs/bugnad/domain"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/infrastructure/db/database"
+	"github.com/wombatlabs/bugnad/infrastructure/logger"
 	"sync"
 )
 

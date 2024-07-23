@@ -1,8 +1,8 @@
 package consensusstatemanager
 
 import (
-	"github.com/bugnanetwork/bugnad/domain/consensus/model"
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/model"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
 )
 
 func (csm *consensusStateManager) isViolatingFinality(stagingArea *model.StagingArea, blockHash *externalapi.DomainHash,

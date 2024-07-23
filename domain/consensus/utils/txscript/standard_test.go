@@ -9,10 +9,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
 
-	"github.com/bugnanetwork/bugnad/domain/dagconfig"
-	"github.com/bugnanetwork/bugnad/util"
+	"github.com/wombatlabs/bugnad/domain/dagconfig"
+	"github.com/wombatlabs/bugnad/util"
 )
 
 // mustParseShortForm parses the passed short form script and returns the

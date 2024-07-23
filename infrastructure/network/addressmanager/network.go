@@ -7,7 +7,7 @@ package addressmanager
 import (
 	"net"
 
-	"github.com/bugnanetwork/bugnad/app/appmessage"
+	"github.com/wombatlabs/bugnad/app/appmessage"
 )
 
 var (

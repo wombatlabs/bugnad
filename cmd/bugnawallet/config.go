@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/bugnanetwork/bugnad/infrastructure/config"
+	"github.com/wombatlabs/bugnad/infrastructure/config"
 	"github.com/pkg/errors"
 
 	"github.com/jessevdk/go-flags"

@@ -5,8 +5,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/bugnanetwork/bugnad/stability-tests/common"
-	"github.com/bugnanetwork/bugnad/util/profiling"
+	"github.com/wombatlabs/bugnad/stability-tests/common"
+	"github.com/wombatlabs/bugnad/util/profiling"
 )
 
 const timeout = 5 * time.Second

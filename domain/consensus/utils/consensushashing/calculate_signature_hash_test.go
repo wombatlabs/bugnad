@@ -5,17 +5,17 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/subnetworks"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/subnetworks"
 
 	"github.com/kaspanet/go-secp256k1"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/consensushashing"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/txscript"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/utxo"
-	"github.com/bugnanetwork/bugnad/domain/dagconfig"
-	"github.com/bugnanetwork/bugnad/util"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/consensushashing"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/txscript"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/utxo"
+	"github.com/wombatlabs/bugnad/domain/dagconfig"
+	"github.com/wombatlabs/bugnad/util"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
 )
 
 // shortened versions of SigHash types to fit in single line of test case

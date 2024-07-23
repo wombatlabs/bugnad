@@ -1,7 +1,7 @@
 package flowcontext
 
 import (
-	"github.com/bugnanetwork/bugnad/infrastructure/network/addressmanager"
+	"github.com/wombatlabs/bugnad/infrastructure/network/addressmanager"
 )
 
 // AddressManager returns the address manager associated to the flow context.

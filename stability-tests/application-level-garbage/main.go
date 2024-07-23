@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/bugnanetwork/bugnad/infrastructure/config"
-	"github.com/bugnanetwork/bugnad/infrastructure/network/netadapter/standalone"
-	"github.com/bugnanetwork/bugnad/stability-tests/common"
-	"github.com/bugnanetwork/bugnad/util/panics"
-	"github.com/bugnanetwork/bugnad/util/profiling"
+	"github.com/wombatlabs/bugnad/infrastructure/config"
+	"github.com/wombatlabs/bugnad/infrastructure/network/netadapter/standalone"
+	"github.com/wombatlabs/bugnad/stability-tests/common"
+	"github.com/wombatlabs/bugnad/util/panics"
+	"github.com/wombatlabs/bugnad/util/profiling"
 )
 
 func main() {

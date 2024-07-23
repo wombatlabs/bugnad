@@ -2,7 +2,7 @@ package panics
 
 import (
 	"fmt"
-	"github.com/bugnanetwork/bugnad/infrastructure/logger"
+	"github.com/wombatlabs/bugnad/infrastructure/logger"
 	"os"
 	"runtime/debug"
 	"sync/atomic"

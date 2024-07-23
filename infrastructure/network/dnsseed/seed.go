@@ -12,15 +12,15 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
 
-	"github.com/bugnanetwork/bugnad/app/appmessage"
-	pb2 "github.com/bugnanetwork/bugnad/infrastructure/network/dnsseed/pb"
+	"github.com/wombatlabs/bugnad/app/appmessage"
+	pb2 "github.com/wombatlabs/bugnad/infrastructure/network/dnsseed/pb"
 	"google.golang.org/grpc"
 
-	"github.com/bugnanetwork/bugnad/util/mstime"
+	"github.com/wombatlabs/bugnad/util/mstime"
 
-	"github.com/bugnanetwork/bugnad/domain/dagconfig"
+	"github.com/wombatlabs/bugnad/domain/dagconfig"
 )
 
 const (

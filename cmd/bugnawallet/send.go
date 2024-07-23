@@ -6,11 +6,11 @@ import (
 	"os"
 	"strings"
 
-	"github.com/bugnanetwork/bugnad/cmd/bugnawallet/daemon/client"
-	"github.com/bugnanetwork/bugnad/cmd/bugnawallet/daemon/pb"
-	"github.com/bugnanetwork/bugnad/cmd/bugnawallet/keys"
-	"github.com/bugnanetwork/bugnad/cmd/bugnawallet/libbugnawallet"
-	"github.com/bugnanetwork/bugnad/cmd/bugnawallet/utils"
+	"github.com/wombatlabs/bugnad/cmd/bugnawallet/daemon/client"
+	"github.com/wombatlabs/bugnad/cmd/bugnawallet/daemon/pb"
+	"github.com/wombatlabs/bugnad/cmd/bugnawallet/keys"
+	"github.com/wombatlabs/bugnad/cmd/bugnawallet/libbugnawallet"
+	"github.com/wombatlabs/bugnad/cmd/bugnawallet/utils"
 	"github.com/pkg/errors"
 )
 

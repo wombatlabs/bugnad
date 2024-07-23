@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/consensushashing"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/consensushashing"
 
-	"github.com/bugnanetwork/bugnad/app/appmessage"
+	"github.com/wombatlabs/bugnad/app/appmessage"
 )
 
 func TestIntegrationBasicSync(t *testing.T) {

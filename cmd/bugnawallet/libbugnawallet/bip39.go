@@ -3,8 +3,8 @@ package libbugnawallet
 import (
 	"fmt"
 
-	"github.com/bugnanetwork/bugnad/cmd/bugnawallet/libbugnawallet/bip32"
-	"github.com/bugnanetwork/bugnad/domain/dagconfig"
+	"github.com/wombatlabs/bugnad/cmd/bugnawallet/libbugnawallet/bip32"
+	"github.com/wombatlabs/bugnad/domain/dagconfig"
 	"github.com/pkg/errors"
 	"github.com/tyler-smith/go-bip39"
 )

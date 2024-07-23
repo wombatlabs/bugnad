@@ -3,8 +3,8 @@ package testutils
 import (
 	"testing"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus"
-	"github.com/bugnanetwork/bugnad/domain/dagconfig"
+	"github.com/wombatlabs/bugnad/domain/consensus"
+	"github.com/wombatlabs/bugnad/domain/dagconfig"
 )
 
 // ForAllNets runs the passed testFunc with all available networks

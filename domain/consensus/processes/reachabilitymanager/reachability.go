@@ -1,8 +1,8 @@
 package reachabilitymanager
 
 import (
-	"github.com/bugnanetwork/bugnad/domain/consensus/model"
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/model"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
 )
 
 // IsDAGAncestorOf returns true if blockHashA is an ancestor of

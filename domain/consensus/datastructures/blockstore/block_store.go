@@ -1,11 +1,11 @@
 package blockstore
 
 import (
-	"github.com/bugnanetwork/bugnad/domain/consensus/database/serialization"
-	"github.com/bugnanetwork/bugnad/domain/consensus/model"
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/lrucache"
-	"github.com/bugnanetwork/bugnad/util/staging"
+	"github.com/wombatlabs/bugnad/domain/consensus/database/serialization"
+	"github.com/wombatlabs/bugnad/domain/consensus/model"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/lrucache"
+	"github.com/wombatlabs/bugnad/util/staging"
 	"github.com/golang/protobuf/proto"
 	"github.com/pkg/errors"
 )

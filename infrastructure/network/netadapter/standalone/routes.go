@@ -3,12 +3,12 @@ package standalone
 import (
 	"time"
 
-	"github.com/bugnanetwork/bugnad/infrastructure/network/netadapter"
+	"github.com/wombatlabs/bugnad/infrastructure/network/netadapter"
 
 	"github.com/pkg/errors"
 
-	"github.com/bugnanetwork/bugnad/app/appmessage"
-	"github.com/bugnanetwork/bugnad/infrastructure/network/netadapter/router"
+	"github.com/wombatlabs/bugnad/app/appmessage"
+	"github.com/wombatlabs/bugnad/infrastructure/network/netadapter/router"
 )
 
 // Routes holds the incoming and outgoing routes of a connection created by MinimalNetAdapter

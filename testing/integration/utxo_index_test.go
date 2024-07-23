@@ -4,15 +4,15 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/utxo"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/utxo"
 
-	"github.com/bugnanetwork/bugnad/app/appmessage"
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/consensushashing"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/constants"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/transactionid"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/txscript"
-	"github.com/bugnanetwork/bugnad/util"
+	"github.com/wombatlabs/bugnad/app/appmessage"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/consensushashing"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/constants"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/transactionid"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/txscript"
+	"github.com/wombatlabs/bugnad/util"
 	"github.com/kaspanet/go-secp256k1"
 )
 

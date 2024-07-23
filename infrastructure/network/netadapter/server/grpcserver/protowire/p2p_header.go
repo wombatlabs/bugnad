@@ -1,9 +1,9 @@
 package protowire
 
 import (
-	"github.com/bugnanetwork/bugnad/app/appmessage"
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
-	"github.com/bugnanetwork/bugnad/util/mstime"
+	"github.com/wombatlabs/bugnad/app/appmessage"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/util/mstime"
 	"github.com/pkg/errors"
 	"math"
 	"math/big"

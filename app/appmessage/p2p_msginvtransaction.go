@@ -1,7 +1,7 @@
 package appmessage
 
 import (
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
 )
 
 // MaxInvPerTxInvMsg is the maximum number of hashes that can

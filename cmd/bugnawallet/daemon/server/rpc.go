@@ -3,8 +3,8 @@ package server
 import (
 	"time"
 
-	"github.com/bugnanetwork/bugnad/domain/dagconfig"
-	"github.com/bugnanetwork/bugnad/infrastructure/network/rpcclient"
+	"github.com/wombatlabs/bugnad/domain/dagconfig"
+	"github.com/wombatlabs/bugnad/infrastructure/network/rpcclient"
 )
 
 func connectToRPC(params *dagconfig.Params, rpcServer string, timeout uint32) (*rpcclient.RPCClient, error) {

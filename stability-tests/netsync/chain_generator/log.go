@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/bugnanetwork/bugnad/infrastructure/logger"
-	"github.com/bugnanetwork/bugnad/stability-tests/common"
-	"github.com/bugnanetwork/bugnad/util/panics"
+	"github.com/wombatlabs/bugnad/infrastructure/logger"
+	"github.com/wombatlabs/bugnad/stability-tests/common"
+	"github.com/wombatlabs/bugnad/util/panics"
 )
 
 var (

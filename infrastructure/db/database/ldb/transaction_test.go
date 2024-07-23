@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/bugnanetwork/bugnad/infrastructure/db/database"
+	"github.com/wombatlabs/bugnad/infrastructure/db/database"
 )
 
 func TestTransactionCloseErrors(t *testing.T) {

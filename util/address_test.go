@@ -13,7 +13,7 @@ import (
 
 	"golang.org/x/crypto/blake2b"
 
-	"github.com/bugnanetwork/bugnad/util"
+	"github.com/wombatlabs/bugnad/util"
 )
 
 func TestAddresses(t *testing.T) {

@@ -9,17 +9,17 @@ import (
 	"math"
 	"testing"
 
-	"github.com/bugnanetwork/bugnad/domain/consensusreference"
+	"github.com/wombatlabs/bugnad/domain/consensusreference"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/testutils"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/testutils"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus"
+	"github.com/wombatlabs/bugnad/domain/consensus"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/constants"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/constants"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/txscript"
-	"github.com/bugnanetwork/bugnad/util"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/txscript"
+	"github.com/wombatlabs/bugnad/util"
 	"github.com/pkg/errors"
 )
 

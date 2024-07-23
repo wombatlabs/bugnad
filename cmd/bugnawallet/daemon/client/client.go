@@ -4,11 +4,11 @@ import (
 	"context"
 	"time"
 
-	"github.com/bugnanetwork/bugnad/cmd/bugnawallet/daemon/server"
+	"github.com/wombatlabs/bugnad/cmd/bugnawallet/daemon/server"
 
 	"github.com/pkg/errors"
 
-	"github.com/bugnanetwork/bugnad/cmd/bugnawallet/daemon/pb"
+	"github.com/wombatlabs/bugnad/cmd/bugnawallet/daemon/pb"
 	"google.golang.org/grpc"
 )
 

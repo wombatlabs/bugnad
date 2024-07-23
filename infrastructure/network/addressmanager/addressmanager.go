@@ -9,10 +9,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/bugnanetwork/bugnad/infrastructure/db/database"
-	"github.com/bugnanetwork/bugnad/util/mstime"
+	"github.com/wombatlabs/bugnad/infrastructure/db/database"
+	"github.com/wombatlabs/bugnad/util/mstime"
 
-	"github.com/bugnanetwork/bugnad/app/appmessage"
+	"github.com/wombatlabs/bugnad/app/appmessage"
 	"github.com/pkg/errors"
 )
 

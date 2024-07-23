@@ -35,7 +35,7 @@ package logger
 import (
 	"bytes"
 	"fmt"
-	"github.com/bugnanetwork/bugnad/util/mstime"
+	"github.com/wombatlabs/bugnad/util/mstime"
 	"os"
 	"runtime"
 	"sync/atomic"

@@ -1,10 +1,10 @@
 package blockrelay
 
 import (
-	"github.com/bugnanetwork/bugnad/app/appmessage"
-	peerpkg "github.com/bugnanetwork/bugnad/app/protocol/peer"
-	"github.com/bugnanetwork/bugnad/domain"
-	"github.com/bugnanetwork/bugnad/infrastructure/network/netadapter/router"
+	"github.com/wombatlabs/bugnad/app/appmessage"
+	peerpkg "github.com/wombatlabs/bugnad/app/protocol/peer"
+	"github.com/wombatlabs/bugnad/domain"
+	"github.com/wombatlabs/bugnad/infrastructure/network/netadapter/router"
 )
 
 // PruningPointProofRequestsContext is the interface for the context needed for the HandlePruningPointProofRequests flow.

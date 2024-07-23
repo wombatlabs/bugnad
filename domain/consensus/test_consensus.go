@@ -3,16 +3,16 @@ package consensus
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/bugnanetwork/bugnad/domain/consensus/model"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/hashset"
-	"github.com/bugnanetwork/bugnad/util/staging"
+	"github.com/wombatlabs/bugnad/domain/consensus/model"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/hashset"
+	"github.com/wombatlabs/bugnad/util/staging"
 	"io"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/testapi"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/consensushashing"
-	"github.com/bugnanetwork/bugnad/domain/dagconfig"
-	"github.com/bugnanetwork/bugnad/infrastructure/db/database"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/testapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/consensushashing"
+	"github.com/wombatlabs/bugnad/domain/dagconfig"
+	"github.com/wombatlabs/bugnad/infrastructure/db/database"
 	"github.com/pkg/errors"
 )
 

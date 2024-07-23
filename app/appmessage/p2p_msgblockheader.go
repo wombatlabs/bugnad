@@ -7,10 +7,10 @@ package appmessage
 import (
 	"math/big"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/consensushashing"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/consensushashing"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
-	"github.com/bugnanetwork/bugnad/util/mstime"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/util/mstime"
 )
 
 // BaseBlockHeaderPayload is the base number of bytes a block header can be,

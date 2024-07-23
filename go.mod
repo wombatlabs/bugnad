@@ -1,4 +1,4 @@
-module github.com/bugnanetwork/bugnad
+module github.com/wombatlabs/bugnad
 
 go 1.18
 

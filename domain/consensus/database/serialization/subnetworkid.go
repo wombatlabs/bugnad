@@ -1,8 +1,8 @@
 package serialization
 
 import (
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/subnetworks"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/subnetworks"
 )
 
 // DbSubnetworkIDToDomainSubnetworkID converts DbSubnetworkId to DomainSubnetworkID

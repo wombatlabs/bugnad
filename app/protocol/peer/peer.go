@@ -4,13 +4,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
-	"github.com/bugnanetwork/bugnad/infrastructure/network/netadapter"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/infrastructure/network/netadapter"
 
-	"github.com/bugnanetwork/bugnad/app/appmessage"
-	"github.com/bugnanetwork/bugnad/infrastructure/network/netadapter/id"
-	mathUtil "github.com/bugnanetwork/bugnad/util/math"
-	"github.com/bugnanetwork/bugnad/util/mstime"
+	"github.com/wombatlabs/bugnad/app/appmessage"
+	"github.com/wombatlabs/bugnad/infrastructure/network/netadapter/id"
+	mathUtil "github.com/wombatlabs/bugnad/util/math"
+	"github.com/wombatlabs/bugnad/util/mstime"
 )
 
 // Peer holds data about a peer.

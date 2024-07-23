@@ -1,7 +1,7 @@
 package protowire
 
 import (
-	"github.com/bugnanetwork/bugnad/app/appmessage"
+	"github.com/wombatlabs/bugnad/app/appmessage"
 	"github.com/pkg/errors"
 )
 

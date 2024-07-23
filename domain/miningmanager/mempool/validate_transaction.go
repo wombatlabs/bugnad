@@ -3,10 +3,10 @@ package mempool
 import (
 	"fmt"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/constants"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/constants"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/consensushashing"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/consensushashing"
 )
 
 func (mp *mempool) validateTransactionPreUTXOEntry(transaction *externalapi.DomainTransaction) error {

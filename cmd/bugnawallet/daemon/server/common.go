@@ -1,6 +1,6 @@
 package server
 
-import "github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
+import "github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
 
 type walletUTXO struct {
 	Outpoint  *externalapi.DomainOutpoint

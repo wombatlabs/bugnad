@@ -3,9 +3,9 @@ package addressexchange
 import (
 	"math/rand"
 
-	"github.com/bugnanetwork/bugnad/app/appmessage"
-	"github.com/bugnanetwork/bugnad/infrastructure/network/addressmanager"
-	"github.com/bugnanetwork/bugnad/infrastructure/network/netadapter/router"
+	"github.com/wombatlabs/bugnad/app/appmessage"
+	"github.com/wombatlabs/bugnad/infrastructure/network/addressmanager"
+	"github.com/wombatlabs/bugnad/infrastructure/network/netadapter/router"
 )
 
 // SendAddressesContext is the interface for the context needed for the SendAddresses flow.

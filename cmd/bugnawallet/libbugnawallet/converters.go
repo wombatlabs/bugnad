@@ -3,11 +3,11 @@ package libbugnawallet
 import (
 	"encoding/hex"
 
-	"github.com/bugnanetwork/bugnad/app/appmessage"
-	"github.com/bugnanetwork/bugnad/cmd/bugnawallet/daemon/pb"
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/transactionid"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/utxo"
+	"github.com/wombatlabs/bugnad/app/appmessage"
+	"github.com/wombatlabs/bugnad/cmd/bugnawallet/daemon/pb"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/transactionid"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/utxo"
 )
 
 // BugnawalletdUTXOsTolibbugnawalletUTXOs converts a  []*pb.UtxosByAddressesEntry to a []*libbugnawallet.UTXO

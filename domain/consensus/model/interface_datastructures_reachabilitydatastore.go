@@ -1,6 +1,6 @@
 package model
 
-import "github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
+import "github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
 
 // ReachabilityDataStore represents a store of ReachabilityData
 type ReachabilityDataStore interface {

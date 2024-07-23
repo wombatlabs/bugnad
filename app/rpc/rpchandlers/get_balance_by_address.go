@@ -1,11 +1,11 @@
 package rpchandlers
 
 import (
-	"github.com/bugnanetwork/bugnad/app/appmessage"
-	"github.com/bugnanetwork/bugnad/app/rpc/rpccontext"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/txscript"
-	"github.com/bugnanetwork/bugnad/infrastructure/network/netadapter/router"
-	"github.com/bugnanetwork/bugnad/util"
+	"github.com/wombatlabs/bugnad/app/appmessage"
+	"github.com/wombatlabs/bugnad/app/rpc/rpccontext"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/txscript"
+	"github.com/wombatlabs/bugnad/infrastructure/network/netadapter/router"
+	"github.com/wombatlabs/bugnad/util"
 	"github.com/pkg/errors"
 )
 

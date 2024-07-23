@@ -5,15 +5,15 @@
 package appmessage
 
 import (
-	"github.com/bugnanetwork/bugnad/util/mstime"
+	"github.com/wombatlabs/bugnad/util/mstime"
 	"github.com/davecgh/go-spew/spew"
 	"math"
 	"reflect"
 	"testing"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/subnetworks"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/subnetworks"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
 )
 
 // TestBlock tests the MsgBlock API.

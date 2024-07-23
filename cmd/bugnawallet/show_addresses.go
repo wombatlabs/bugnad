@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/bugnanetwork/bugnad/cmd/bugnawallet/daemon/client"
-	"github.com/bugnanetwork/bugnad/cmd/bugnawallet/daemon/pb"
+	"github.com/wombatlabs/bugnad/cmd/bugnawallet/daemon/client"
+	"github.com/wombatlabs/bugnad/cmd/bugnawallet/daemon/pb"
 )
 
 func showAddresses(conf *showAddressesConfig) error {

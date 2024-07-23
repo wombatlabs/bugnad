@@ -4,14 +4,14 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/bugnanetwork/bugnad/domain/dagconfig"
+	"github.com/wombatlabs/bugnad/domain/dagconfig"
 
-	"github.com/bugnanetwork/bugnad/infrastructure/db/database/ldb"
+	"github.com/wombatlabs/bugnad/infrastructure/db/database/ldb"
 
-	"github.com/bugnanetwork/bugnad/infrastructure/db/database"
+	"github.com/wombatlabs/bugnad/infrastructure/db/database"
 
-	"github.com/bugnanetwork/bugnad/app"
-	"github.com/bugnanetwork/bugnad/infrastructure/config"
+	"github.com/wombatlabs/bugnad/app"
+	"github.com/wombatlabs/bugnad/infrastructure/config"
 )
 
 type appHarness struct {

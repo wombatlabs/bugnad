@@ -4,18 +4,18 @@ import (
 	"sync"
 	"time"
 
-	"github.com/bugnanetwork/bugnad/util/mstime"
+	"github.com/wombatlabs/bugnad/util/mstime"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
 
-	"github.com/bugnanetwork/bugnad/domain"
+	"github.com/wombatlabs/bugnad/domain"
 
-	peerpkg "github.com/bugnanetwork/bugnad/app/protocol/peer"
-	"github.com/bugnanetwork/bugnad/infrastructure/config"
-	"github.com/bugnanetwork/bugnad/infrastructure/network/addressmanager"
-	"github.com/bugnanetwork/bugnad/infrastructure/network/connmanager"
-	"github.com/bugnanetwork/bugnad/infrastructure/network/netadapter"
-	"github.com/bugnanetwork/bugnad/infrastructure/network/netadapter/id"
+	peerpkg "github.com/wombatlabs/bugnad/app/protocol/peer"
+	"github.com/wombatlabs/bugnad/infrastructure/config"
+	"github.com/wombatlabs/bugnad/infrastructure/network/addressmanager"
+	"github.com/wombatlabs/bugnad/infrastructure/network/connmanager"
+	"github.com/wombatlabs/bugnad/infrastructure/network/netadapter"
+	"github.com/wombatlabs/bugnad/infrastructure/network/netadapter/id"
 )
 
 // OnNewBlockTemplateHandler is a handler function that's triggered when a new block template is available

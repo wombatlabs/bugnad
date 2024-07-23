@@ -1,10 +1,10 @@
 package consensusstatestore
 
 import (
-	"github.com/bugnanetwork/bugnad/domain/consensus/model"
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/utxolrucache"
-	"github.com/bugnanetwork/bugnad/util/staging"
+	"github.com/wombatlabs/bugnad/domain/consensus/model"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/utxolrucache"
+	"github.com/wombatlabs/bugnad/util/staging"
 )
 
 var importingPruningPointUTXOSetKeyName = []byte("importing-pruning-point-utxo-set")

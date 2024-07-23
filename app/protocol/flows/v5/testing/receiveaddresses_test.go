@@ -1,16 +1,16 @@
 package testing
 
 import (
-	"github.com/bugnanetwork/bugnad/app/protocol/flows/v5/addressexchange"
+	"github.com/wombatlabs/bugnad/app/protocol/flows/v5/addressexchange"
 	"testing"
 	"time"
 
-	"github.com/bugnanetwork/bugnad/app/appmessage"
-	peerpkg "github.com/bugnanetwork/bugnad/app/protocol/peer"
-	"github.com/bugnanetwork/bugnad/domain/consensus"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/testutils"
-	"github.com/bugnanetwork/bugnad/infrastructure/network/addressmanager"
-	"github.com/bugnanetwork/bugnad/infrastructure/network/netadapter/router"
+	"github.com/wombatlabs/bugnad/app/appmessage"
+	peerpkg "github.com/wombatlabs/bugnad/app/protocol/peer"
+	"github.com/wombatlabs/bugnad/domain/consensus"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/testutils"
+	"github.com/wombatlabs/bugnad/infrastructure/network/addressmanager"
+	"github.com/wombatlabs/bugnad/infrastructure/network/netadapter/router"
 )
 
 type fakeReceiveAddressesContext struct{}

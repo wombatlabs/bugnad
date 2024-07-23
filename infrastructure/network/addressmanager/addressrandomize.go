@@ -5,7 +5,7 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/bugnanetwork/bugnad/app/appmessage"
+	"github.com/wombatlabs/bugnad/app/appmessage"
 )
 
 // AddressRandomize implement addressRandomizer interface

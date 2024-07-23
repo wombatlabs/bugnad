@@ -1,6 +1,6 @@
 package appmessage
 
-import "github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
+import "github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
 
 // MsgPruningPointUTXOSetChunk represents a bugna PruningPointUTXOSetChunk message
 type MsgPruningPointUTXOSetChunk struct {

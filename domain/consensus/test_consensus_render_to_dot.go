@@ -8,7 +8,7 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus/model"
+	"github.com/wombatlabs/bugnad/domain/consensus/model"
 )
 
 // RenderDAGToDot is a helper function for debugging tests.

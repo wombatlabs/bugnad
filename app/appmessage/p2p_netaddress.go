@@ -7,7 +7,7 @@ package appmessage
 import (
 	"net"
 
-	"github.com/bugnanetwork/bugnad/util/mstime"
+	"github.com/wombatlabs/bugnad/util/mstime"
 )
 
 // NetAddress defines information about a peer on the network including the time

@@ -1,7 +1,7 @@
 package lrucache
 
 import (
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
 )
 
 // LRUCache is a least-recently-used cache for any type

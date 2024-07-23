@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/bugnanetwork/bugnad/app/appmessage"
-	"github.com/bugnanetwork/bugnad/infrastructure/logger"
-	"github.com/bugnanetwork/bugnad/infrastructure/network/rpcclient"
+	"github.com/wombatlabs/bugnad/app/appmessage"
+	"github.com/wombatlabs/bugnad/infrastructure/logger"
+	"github.com/wombatlabs/bugnad/infrastructure/network/rpcclient"
 	"github.com/pkg/errors"
 	"time"
 )

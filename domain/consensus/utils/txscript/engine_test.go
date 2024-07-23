@@ -7,9 +7,9 @@ package txscript
 import (
 	"testing"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/consensushashing"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/consensushashing"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
 )
 
 // TestBadPC sets the pc to a deliberately bad result then confirms that Step()

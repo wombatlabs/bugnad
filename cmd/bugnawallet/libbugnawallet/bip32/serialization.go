@@ -3,7 +3,7 @@ package bip32
 import (
 	"encoding/binary"
 
-	"github.com/bugnanetwork/bugnad/cmd/bugnawallet/libbugnawallet/bip32/base58"
+	"github.com/wombatlabs/bugnad/cmd/bugnawallet/libbugnawallet/bip32/base58"
 	"github.com/kaspanet/go-secp256k1"
 	"github.com/pkg/errors"
 )

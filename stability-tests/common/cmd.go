@@ -5,8 +5,8 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/bugnanetwork/bugnad/domain/dagconfig"
-	"github.com/bugnanetwork/bugnad/infrastructure/logger"
+	"github.com/wombatlabs/bugnad/domain/dagconfig"
+	"github.com/wombatlabs/bugnad/infrastructure/logger"
 	"github.com/pkg/errors"
 )
 

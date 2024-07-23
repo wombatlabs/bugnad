@@ -1,8 +1,8 @@
 package rpcclient
 
 import (
-	"github.com/bugnanetwork/bugnad/app/appmessage"
-	routerpkg "github.com/bugnanetwork/bugnad/infrastructure/network/netadapter/router"
+	"github.com/wombatlabs/bugnad/app/appmessage"
+	routerpkg "github.com/wombatlabs/bugnad/infrastructure/network/netadapter/router"
 )
 
 type rpcRouter struct {

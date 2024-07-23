@@ -1,6 +1,6 @@
 package model
 
-import "github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
+import "github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
 
 // HeadersSelectedChainStore represents a store of the headers selected chain
 type HeadersSelectedChainStore interface {

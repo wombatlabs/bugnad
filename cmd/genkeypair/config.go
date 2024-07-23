@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/bugnanetwork/bugnad/infrastructure/config"
+	"github.com/wombatlabs/bugnad/infrastructure/config"
 	"github.com/jessevdk/go-flags"
 )
 

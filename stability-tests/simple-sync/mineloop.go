@@ -3,10 +3,10 @@ package main
 import (
 	"time"
 
-	"github.com/bugnanetwork/bugnad/app/appmessage"
-	"github.com/bugnanetwork/bugnad/stability-tests/common"
-	"github.com/bugnanetwork/bugnad/stability-tests/common/rpc"
-	"github.com/bugnanetwork/bugnad/util"
+	"github.com/wombatlabs/bugnad/app/appmessage"
+	"github.com/wombatlabs/bugnad/stability-tests/common"
+	"github.com/wombatlabs/bugnad/stability-tests/common/rpc"
+	"github.com/wombatlabs/bugnad/util"
 	"github.com/kaspanet/go-secp256k1"
 	"github.com/pkg/errors"
 )

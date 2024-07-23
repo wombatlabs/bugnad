@@ -4,18 +4,18 @@ import (
 	"math"
 	"sort"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus/processes/coinbasemanager"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/merkle"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/transactionhelper"
-	"github.com/bugnanetwork/bugnad/domain/consensusreference"
-	"github.com/bugnanetwork/bugnad/util/mstime"
+	"github.com/wombatlabs/bugnad/domain/consensus/processes/coinbasemanager"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/merkle"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/transactionhelper"
+	"github.com/wombatlabs/bugnad/domain/consensusreference"
+	"github.com/wombatlabs/bugnad/util/mstime"
 
-	"github.com/bugnanetwork/bugnad/util/difficulty"
+	"github.com/wombatlabs/bugnad/util/difficulty"
 
-	consensusexternalapi "github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
-	"github.com/bugnanetwork/bugnad/domain/consensus/ruleerrors"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/subnetworks"
-	miningmanagerapi "github.com/bugnanetwork/bugnad/domain/miningmanager/model"
+	consensusexternalapi "github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/ruleerrors"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/subnetworks"
+	miningmanagerapi "github.com/wombatlabs/bugnad/domain/miningmanager/model"
 	"github.com/pkg/errors"
 )
 
@@ -152,7 +152,7 @@ func (btb *blockTemplateBuilder) BuildBlockTemplate(
 		if err != nil {
 			// mempool.RemoveInvalidTransactions might return errors in situations that are perfectly fine in this context.
 			// TODO: Once the mempool invariants are clear, this should be converted back `return nil, err`:
-			// https://github.com/bugnanetwork/bugnad/issues/1553
+			// https://github.com/wombatlabs/bugnad/issues/1553
 			log.Criticalf("Error from mempool.RemoveInvalidTransactions: %+v", err)
 		}
 		// We can call this recursively without worry because this should almost never happen

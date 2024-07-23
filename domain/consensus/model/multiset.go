@@ -1,6 +1,6 @@
 package model
 
-import "github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
+import "github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
 
 // Multiset represents a secp256k1 multiset
 type Multiset interface {

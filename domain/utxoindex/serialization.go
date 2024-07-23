@@ -2,8 +2,8 @@ package utxoindex
 
 import (
 	"encoding/binary"
-	"github.com/bugnanetwork/bugnad/domain/consensus/database/serialization"
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/database/serialization"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
 	"github.com/pkg/errors"
 	"google.golang.org/protobuf/proto"
 	"io"

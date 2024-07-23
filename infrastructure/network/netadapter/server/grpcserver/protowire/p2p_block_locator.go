@@ -1,8 +1,8 @@
 package protowire
 
 import (
-	"github.com/bugnanetwork/bugnad/app/appmessage"
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/app/appmessage"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
 	"github.com/pkg/errors"
 )
 

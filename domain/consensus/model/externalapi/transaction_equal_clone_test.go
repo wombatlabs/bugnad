@@ -4,8 +4,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/utxo"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/utxo"
 )
 
 // Changed fields of a test struct compared to a base test struct marked as "changed" and

@@ -6,10 +6,10 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/bugnanetwork/bugnad/cmd/bugnawallet/libbugnawallet/serialization"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/consensushashing"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/constants"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/txscript"
+	"github.com/wombatlabs/bugnad/cmd/bugnawallet/libbugnawallet/serialization"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/consensushashing"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/constants"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/txscript"
 	"github.com/pkg/errors"
 )
 

@@ -3,10 +3,10 @@ package server
 import (
 	"context"
 
-	"github.com/bugnanetwork/bugnad/app/appmessage"
-	"github.com/bugnanetwork/bugnad/cmd/bugnawallet/daemon/pb"
-	"github.com/bugnanetwork/bugnad/cmd/bugnawallet/libbugnawallet"
-	"github.com/bugnanetwork/bugnad/util"
+	"github.com/wombatlabs/bugnad/app/appmessage"
+	"github.com/wombatlabs/bugnad/cmd/bugnawallet/daemon/pb"
+	"github.com/wombatlabs/bugnad/cmd/bugnawallet/libbugnawallet"
+	"github.com/wombatlabs/bugnad/util"
 )
 
 func (s *server) GetExternalSpendableUTXOs(_ context.Context, request *pb.GetExternalSpendableUTXOsRequest) (*pb.GetExternalSpendableUTXOsResponse, error) {

@@ -1,17 +1,17 @@
 package server
 
 import (
-	"github.com/bugnanetwork/bugnad/cmd/bugnawallet/libbugnawallet"
+	"github.com/wombatlabs/bugnad/cmd/bugnawallet/libbugnawallet"
 	"github.com/kaspanet/go-secp256k1"
 	"github.com/pkg/errors"
 
-	"github.com/bugnanetwork/bugnad/cmd/bugnawallet/libbugnawallet/serialization"
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/consensushashing"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/constants"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/utxo"
-	"github.com/bugnanetwork/bugnad/domain/miningmanager/mempool"
-	"github.com/bugnanetwork/bugnad/util"
+	"github.com/wombatlabs/bugnad/cmd/bugnawallet/libbugnawallet/serialization"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/consensushashing"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/constants"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/utxo"
+	"github.com/wombatlabs/bugnad/domain/miningmanager/mempool"
+	"github.com/wombatlabs/bugnad/util"
 )
 
 // maybeAutoCompoundTransaction checks if a transaction's mass is higher that what is allowed for a standard

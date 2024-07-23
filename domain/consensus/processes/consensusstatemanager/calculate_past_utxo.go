@@ -1,15 +1,15 @@
 package consensusstatemanager
 
 import (
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/consensushashing"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/utxo"
-	"github.com/bugnanetwork/bugnad/infrastructure/logger"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/consensushashing"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/utxo"
+	"github.com/wombatlabs/bugnad/infrastructure/logger"
 	"github.com/pkg/errors"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus/model"
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
-	"github.com/bugnanetwork/bugnad/domain/consensus/ruleerrors"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/transactionhelper"
+	"github.com/wombatlabs/bugnad/domain/consensus/model"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/ruleerrors"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/transactionhelper"
 )
 
 func (csm *consensusStateManager) CalculatePastUTXOAndAcceptanceData(stagingArea *model.StagingArea,

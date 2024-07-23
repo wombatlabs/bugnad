@@ -1,9 +1,9 @@
 # -- multistage docker build: stage #1: build stage
 FROM golang:1.18-alpine AS build
 
-RUN mkdir -p /go/src/github.com/bugnanetwork/bugnad
+RUN mkdir -p /go/src/github.com/wombatlabs/bugnad
 
-WORKDIR /go/src/github.com/bugnanetwork/bugnad
+WORKDIR /go/src/github.com/wombatlabs/bugnad
 
 RUN apk add --no-cache curl git openssh binutils gcc musl-dev
 
@@ -14,7 +14,7 @@ RUN go mod download
 
 COPY . .
 
-WORKDIR /go/src/github.com/bugnanetwork/bugnad/cmd/bugnawallet
+WORKDIR /go/src/github.com/wombatlabs/bugnad/cmd/bugnawallet
 RUN GOOS=linux go build -a -installsuffix cgo -o bugnawallet .
 
 # --- multistage docker build: stage #2: runtime image
@@ -23,7 +23,7 @@ WORKDIR /app
 
 RUN apk add --no-cache ca-certificates tini
 
-COPY --from=build /go/src/github.com/bugnanetwork/bugnad/cmd/bugnawallet/bugnawallet /app/
+COPY --from=build /go/src/github.com/wombatlabs/bugnad/cmd/bugnawallet/bugnawallet /app/
 
 USER nobody
 ENTRYPOINT [ "/sbin/tini", "--" ]

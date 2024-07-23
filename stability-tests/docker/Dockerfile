@@ -6,9 +6,9 @@ FROM ${BGAPAMINER_IMAGE} as bugnaminer
 
 FROM golang:1.19-alpine
 
-RUN mkdir -p /go/src/github.com/bugnanetwork/bugnad
+RUN mkdir -p /go/src/github.com/wombatlabs/bugnad
 
-WORKDIR /go/src/github.com/bugnanetwork/bugnad
+WORKDIR /go/src/github.com/wombatlabs/bugnad
 
 RUN apk add bash build-base git
 
@@ -23,7 +23,7 @@ COPY --from=bugnad /app/ /app/
 COPY --from=bugnaminer /app/ /app/
 ENV PATH="/app:${PATH}"
 
-WORKDIR /go/src/github.com/bugnanetwork/bugnad/stability-tests
+WORKDIR /go/src/github.com/wombatlabs/bugnad/stability-tests
 
 RUN go install ./...
 

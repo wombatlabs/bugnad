@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/bugnanetwork/bugnad/infrastructure/network/netadapter/router"
+	"github.com/wombatlabs/bugnad/infrastructure/network/netadapter/router"
 )
 
 // OnConnectedHandler is a function that is to be called

@@ -1,8 +1,8 @@
 package serialization
 
 import (
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/transactionid"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/transactionid"
 )
 
 // DbTransactionIDToDomainTransactionID converts DbTransactionId to DomainTransactionID

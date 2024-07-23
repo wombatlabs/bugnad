@@ -3,8 +3,8 @@ package server
 import (
 	"context"
 
-	"github.com/bugnanetwork/bugnad/cmd/bugnawallet/daemon/pb"
-	"github.com/bugnanetwork/bugnad/cmd/bugnawallet/libbugnawallet"
+	"github.com/wombatlabs/bugnad/cmd/bugnawallet/daemon/pb"
+	"github.com/wombatlabs/bugnad/cmd/bugnawallet/libbugnawallet"
 )
 
 type balancesType struct{ available, pending uint64 }

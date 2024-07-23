@@ -8,14 +8,14 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus"
+	"github.com/wombatlabs/bugnad/domain/consensus"
 
-	"github.com/bugnanetwork/bugnad/app/appmessage"
-	"github.com/bugnanetwork/bugnad/stability-tests/common"
-	"github.com/bugnanetwork/bugnad/stability-tests/common/mine"
-	"github.com/bugnanetwork/bugnad/stability-tests/common/rpc"
-	"github.com/bugnanetwork/bugnad/util"
-	"github.com/bugnanetwork/bugnad/util/panics"
+	"github.com/wombatlabs/bugnad/app/appmessage"
+	"github.com/wombatlabs/bugnad/stability-tests/common"
+	"github.com/wombatlabs/bugnad/stability-tests/common/mine"
+	"github.com/wombatlabs/bugnad/stability-tests/common/rpc"
+	"github.com/wombatlabs/bugnad/util"
+	"github.com/wombatlabs/bugnad/util/panics"
 	"github.com/pkg/errors"
 )
 

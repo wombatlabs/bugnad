@@ -1,13 +1,13 @@
 package blockrelay
 
 import (
-	"github.com/bugnanetwork/bugnad/app/appmessage"
-	"github.com/bugnanetwork/bugnad/app/protocol/peer"
-	"github.com/bugnanetwork/bugnad/app/protocol/protocolerrors"
-	"github.com/bugnanetwork/bugnad/domain"
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
-	"github.com/bugnanetwork/bugnad/infrastructure/config"
-	"github.com/bugnanetwork/bugnad/infrastructure/network/netadapter/router"
+	"github.com/wombatlabs/bugnad/app/appmessage"
+	"github.com/wombatlabs/bugnad/app/protocol/peer"
+	"github.com/wombatlabs/bugnad/app/protocol/protocolerrors"
+	"github.com/wombatlabs/bugnad/domain"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/infrastructure/config"
+	"github.com/wombatlabs/bugnad/infrastructure/network/netadapter/router"
 	"sort"
 )
 

@@ -10,7 +10,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
 )
 
 // TestParseOpcode tests for opcode parsing with bad data templates.

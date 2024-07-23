@@ -6,8 +6,8 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/bugnanetwork/bugnad/cmd/bugnawallet/daemon/client"
-	"github.com/bugnanetwork/bugnad/cmd/bugnawallet/daemon/pb"
+	"github.com/wombatlabs/bugnad/cmd/bugnawallet/daemon/client"
+	"github.com/wombatlabs/bugnad/cmd/bugnawallet/daemon/pb"
 	"github.com/pkg/errors"
 )
 

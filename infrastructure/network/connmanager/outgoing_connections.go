@@ -1,6 +1,6 @@
 package connmanager
 
-import "github.com/bugnanetwork/bugnad/app/appmessage"
+import "github.com/wombatlabs/bugnad/app/appmessage"
 
 // checkOutgoingConnections goes over all activeOutgoing and makes sure they are still active.
 // Then it opens connections so that we have targetOutgoing active connections

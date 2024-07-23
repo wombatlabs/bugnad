@@ -1,8 +1,8 @@
 package testapi
 
 import (
-	"github.com/bugnanetwork/bugnad/domain/consensus/model"
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/model"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
 )
 
 // TestConsensusStateManager  adds to the main ConsensusStateManager methods required by tests

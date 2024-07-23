@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/bugnanetwork/bugnad/app/appmessage"
-	"github.com/bugnanetwork/bugnad/stability-tests/common/rpc"
+	"github.com/wombatlabs/bugnad/app/appmessage"
+	"github.com/wombatlabs/bugnad/stability-tests/common/rpc"
 	"github.com/pkg/errors"
 	"time"
 )

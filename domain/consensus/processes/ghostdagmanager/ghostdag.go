@@ -3,9 +3,9 @@ package ghostdagmanager
 import (
 	"math/big"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus/model"
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
-	"github.com/bugnanetwork/bugnad/util/difficulty"
+	"github.com/wombatlabs/bugnad/domain/consensus/model"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/util/difficulty"
 	"github.com/pkg/errors"
 )
 

@@ -1,8 +1,8 @@
 package syncmanager
 
 import (
-	"github.com/bugnanetwork/bugnad/domain/consensus/model"
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/model"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
 )
 
 func (sm *syncManager) syncInfo(stagingArea *model.StagingArea) (*externalapi.SyncInfo, error) {

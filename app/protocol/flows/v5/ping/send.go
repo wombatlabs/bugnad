@@ -1,16 +1,16 @@
 package ping
 
 import (
-	"github.com/bugnanetwork/bugnad/app/protocol/common"
-	"github.com/bugnanetwork/bugnad/app/protocol/flowcontext"
+	"github.com/wombatlabs/bugnad/app/protocol/common"
+	"github.com/wombatlabs/bugnad/app/protocol/flowcontext"
 	"github.com/pkg/errors"
 	"time"
 
-	"github.com/bugnanetwork/bugnad/app/appmessage"
-	peerpkg "github.com/bugnanetwork/bugnad/app/protocol/peer"
-	"github.com/bugnanetwork/bugnad/app/protocol/protocolerrors"
-	"github.com/bugnanetwork/bugnad/infrastructure/network/netadapter/router"
-	"github.com/bugnanetwork/bugnad/util/random"
+	"github.com/wombatlabs/bugnad/app/appmessage"
+	peerpkg "github.com/wombatlabs/bugnad/app/protocol/peer"
+	"github.com/wombatlabs/bugnad/app/protocol/protocolerrors"
+	"github.com/wombatlabs/bugnad/infrastructure/network/netadapter/router"
+	"github.com/wombatlabs/bugnad/util/random"
 )
 
 // SendPingsContext is the interface for the context needed for the SendPings flow.

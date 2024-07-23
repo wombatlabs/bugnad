@@ -20,12 +20,12 @@ import (
 	"github.com/jessevdk/go-flags"
 	"github.com/pkg/errors"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
-	"github.com/bugnanetwork/bugnad/domain/dagconfig"
-	"github.com/bugnanetwork/bugnad/infrastructure/logger"
-	"github.com/bugnanetwork/bugnad/util"
-	"github.com/bugnanetwork/bugnad/util/network"
-	"github.com/bugnanetwork/bugnad/version"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/dagconfig"
+	"github.com/wombatlabs/bugnad/infrastructure/logger"
+	"github.com/wombatlabs/bugnad/util"
+	"github.com/wombatlabs/bugnad/util/network"
+	"github.com/wombatlabs/bugnad/version"
 )
 
 const (

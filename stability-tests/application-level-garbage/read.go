@@ -3,8 +3,8 @@ package main
 import (
 	"encoding/json"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
-	"github.com/bugnanetwork/bugnad/stability-tests/common"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/stability-tests/common"
 	"github.com/pkg/errors"
 )
 

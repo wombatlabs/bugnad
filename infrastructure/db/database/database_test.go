@@ -9,7 +9,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/bugnanetwork/bugnad/infrastructure/db/database"
+	"github.com/wombatlabs/bugnad/infrastructure/db/database"
 )
 
 func TestDatabasePut(t *testing.T) {

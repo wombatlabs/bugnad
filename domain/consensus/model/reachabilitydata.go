@@ -3,7 +3,7 @@ package model
 import (
 	"fmt"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
 )
 
 // MutableReachabilityData represents a node in the reachability tree

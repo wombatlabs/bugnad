@@ -5,7 +5,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/bugnanetwork/bugnad/app/protocol/common"
+	"github.com/wombatlabs/bugnad/app/protocol/common"
 	"github.com/pkg/errors"
 )
 

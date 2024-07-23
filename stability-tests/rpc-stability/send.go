@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/bugnanetwork/bugnad/infrastructure/network/rpcclient/grpcclient"
+	"github.com/wombatlabs/bugnad/infrastructure/network/rpcclient/grpcclient"
 	"github.com/pkg/errors"
 )
 

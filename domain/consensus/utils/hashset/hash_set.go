@@ -3,7 +3,7 @@ package hashset
 import (
 	"strings"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
 )
 
 // HashSet is an unsorted unique collection of DomainHashes

@@ -4,8 +4,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/bugnanetwork/bugnad/infrastructure/logger"
-	"github.com/bugnanetwork/bugnad/stability-tests/common"
+	"github.com/wombatlabs/bugnad/infrastructure/logger"
+	"github.com/wombatlabs/bugnad/stability-tests/common"
 
 	"github.com/jessevdk/go-flags"
 )

@@ -3,13 +3,13 @@ package config
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
 	"math/big"
 	"os"
 	"time"
 
-	"github.com/bugnanetwork/bugnad/domain/dagconfig"
-	"github.com/bugnanetwork/bugnad/util/difficulty"
+	"github.com/wombatlabs/bugnad/domain/dagconfig"
+	"github.com/wombatlabs/bugnad/util/difficulty"
 	"github.com/jessevdk/go-flags"
 	"github.com/pkg/errors"
 )

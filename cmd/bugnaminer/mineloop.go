@@ -6,15 +6,15 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/bugnanetwork/bugnad/version"
+	"github.com/wombatlabs/bugnad/version"
 
-	"github.com/bugnanetwork/bugnad/app/appmessage"
-	"github.com/bugnanetwork/bugnad/cmd/bugnaminer/templatemanager"
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/consensushashing"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/pow"
-	"github.com/bugnanetwork/bugnad/infrastructure/network/netadapter/router"
-	"github.com/bugnanetwork/bugnad/util"
+	"github.com/wombatlabs/bugnad/app/appmessage"
+	"github.com/wombatlabs/bugnad/cmd/bugnaminer/templatemanager"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/consensushashing"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/pow"
+	"github.com/wombatlabs/bugnad/infrastructure/network/netadapter/router"
+	"github.com/wombatlabs/bugnad/util"
 	"github.com/pkg/errors"
 )
 

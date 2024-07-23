@@ -1,11 +1,11 @@
 package pow
 
 import (
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/consensushashing"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/hashes"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/serialization"
-	"github.com/bugnanetwork/bugnad/util/difficulty"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/consensushashing"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/hashes"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/serialization"
+	"github.com/wombatlabs/bugnad/util/difficulty"
 
 	"math/big"
 

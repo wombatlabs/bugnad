@@ -1,7 +1,7 @@
 package protocolerrors
 
 import (
-	"github.com/bugnanetwork/bugnad/domain/consensus/ruleerrors"
+	"github.com/wombatlabs/bugnad/domain/consensus/ruleerrors"
 	"github.com/pkg/errors"
 )
 

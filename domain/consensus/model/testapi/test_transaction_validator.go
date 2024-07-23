@@ -1,8 +1,8 @@
 package testapi
 
 import (
-	"github.com/bugnanetwork/bugnad/domain/consensus/model"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/txscript"
+	"github.com/wombatlabs/bugnad/domain/consensus/model"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/txscript"
 )
 
 // TestTransactionValidator adds to the main TransactionValidator methods required by tests

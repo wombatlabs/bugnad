@@ -1,9 +1,9 @@
 package consensusstatestore
 
 import (
-	"github.com/bugnanetwork/bugnad/domain/consensus/database/serialization"
-	"github.com/bugnanetwork/bugnad/domain/consensus/model"
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/database/serialization"
+	"github.com/wombatlabs/bugnad/domain/consensus/model"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
 	"github.com/golang/protobuf/proto"
 )
 

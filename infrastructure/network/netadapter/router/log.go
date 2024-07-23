@@ -1,7 +1,7 @@
 package router
 
 import (
-	"github.com/bugnanetwork/bugnad/infrastructure/logger"
+	"github.com/wombatlabs/bugnad/infrastructure/logger"
 )
 
 var log = logger.RegisterSubSystem("ROUT")

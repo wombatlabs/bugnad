@@ -3,7 +3,7 @@ Bugnad
 ====
 
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](https://choosealicense.com/licenses/isc/)
-[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/bugnanetwork/bugnad)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/wombatlabs/bugnad)
 
 Bugnad is the reference full node Bugna implementation written in Go (golang).
 
@@ -31,7 +31,7 @@ $ go version
 - Run the following commands to obtain and install bugnad including all dependencies:
 
 ```bash
-$ git clone https://github.com/bugnanetwork/bugnad
+$ git clone https://github.com/wombatlabs/bugnad
 $ cd bugnad
 $ go install . ./cmd/...
 ```

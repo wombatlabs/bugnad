@@ -3,15 +3,15 @@ package pruningmanager
 import (
 	"sort"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus/model"
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/consensushashing"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/multiset"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/utxo"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/virtual"
-	"github.com/bugnanetwork/bugnad/infrastructure/db/database"
-	"github.com/bugnanetwork/bugnad/infrastructure/logger"
-	"github.com/bugnanetwork/bugnad/util/staging"
+	"github.com/wombatlabs/bugnad/domain/consensus/model"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/consensushashing"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/multiset"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/utxo"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/virtual"
+	"github.com/wombatlabs/bugnad/infrastructure/db/database"
+	"github.com/wombatlabs/bugnad/infrastructure/logger"
+	"github.com/wombatlabs/bugnad/util/staging"
 	"github.com/pkg/errors"
 )
 

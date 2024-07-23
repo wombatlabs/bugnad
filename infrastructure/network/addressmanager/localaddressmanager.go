@@ -7,7 +7,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/bugnanetwork/bugnad/app/appmessage"
+	"github.com/wombatlabs/bugnad/app/appmessage"
 	"github.com/pkg/errors"
 )
 

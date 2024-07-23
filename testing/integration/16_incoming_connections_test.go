@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/bugnanetwork/bugnad/app/appmessage"
+	"github.com/wombatlabs/bugnad/app/appmessage"
 )
 
 func Test16IncomingConnections(t *testing.T) {

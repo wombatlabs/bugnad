@@ -22,7 +22,7 @@ $ go version
 - Run the following commands to obtain and install bugnad including all dependencies:
 
 ```bash
-$ git clone https://github.com/bugnanetwork/bugnad
+$ git clone https://github.com/wombatlabs/bugnad
 $ cd bugnad/cmd/bugnaminer
 $ go install .
 ```

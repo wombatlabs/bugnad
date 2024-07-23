@@ -4,9 +4,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/bugnanetwork/bugnad/app/protocol/protocolerrors"
+	"github.com/wombatlabs/bugnad/app/protocol/protocolerrors"
 
-	"github.com/bugnanetwork/bugnad/app/appmessage"
+	"github.com/wombatlabs/bugnad/app/appmessage"
 	"github.com/pkg/errors"
 )
 

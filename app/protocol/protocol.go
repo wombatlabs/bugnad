@@ -1,20 +1,20 @@
 package protocol
 
 import (
-	"github.com/bugnanetwork/bugnad/app/protocol/common"
-	"github.com/bugnanetwork/bugnad/app/protocol/flows/ready"
-	"github.com/bugnanetwork/bugnad/app/protocol/flows/v5"
+	"github.com/wombatlabs/bugnad/app/protocol/common"
+	"github.com/wombatlabs/bugnad/app/protocol/flows/ready"
+	"github.com/wombatlabs/bugnad/app/protocol/flows/v5"
 	"sync"
 	"sync/atomic"
 
-	"github.com/bugnanetwork/bugnad/app/appmessage"
-	"github.com/bugnanetwork/bugnad/app/protocol/flows/handshake"
-	peerpkg "github.com/bugnanetwork/bugnad/app/protocol/peer"
-	"github.com/bugnanetwork/bugnad/app/protocol/protocolerrors"
-	"github.com/bugnanetwork/bugnad/infrastructure/network/addressmanager"
-	"github.com/bugnanetwork/bugnad/infrastructure/network/connmanager"
-	"github.com/bugnanetwork/bugnad/infrastructure/network/netadapter"
-	routerpkg "github.com/bugnanetwork/bugnad/infrastructure/network/netadapter/router"
+	"github.com/wombatlabs/bugnad/app/appmessage"
+	"github.com/wombatlabs/bugnad/app/protocol/flows/handshake"
+	peerpkg "github.com/wombatlabs/bugnad/app/protocol/peer"
+	"github.com/wombatlabs/bugnad/app/protocol/protocolerrors"
+	"github.com/wombatlabs/bugnad/infrastructure/network/addressmanager"
+	"github.com/wombatlabs/bugnad/infrastructure/network/connmanager"
+	"github.com/wombatlabs/bugnad/infrastructure/network/netadapter"
+	routerpkg "github.com/wombatlabs/bugnad/infrastructure/network/netadapter/router"
 	"github.com/pkg/errors"
 )
 

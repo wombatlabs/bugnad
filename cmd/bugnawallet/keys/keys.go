@@ -13,10 +13,10 @@ import (
 
 	"github.com/gofrs/flock"
 
-	"github.com/bugnanetwork/bugnad/cmd/bugnawallet/utils"
+	"github.com/wombatlabs/bugnad/cmd/bugnawallet/utils"
 
-	"github.com/bugnanetwork/bugnad/domain/dagconfig"
-	"github.com/bugnanetwork/bugnad/util"
+	"github.com/wombatlabs/bugnad/domain/dagconfig"
+	"github.com/wombatlabs/bugnad/util"
 	"github.com/pkg/errors"
 	"golang.org/x/crypto/argon2"
 	"golang.org/x/crypto/chacha20poly1305"

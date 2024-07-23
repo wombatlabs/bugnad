@@ -3,13 +3,13 @@ package consensusstatemanager_test
 import (
 	"testing"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus"
-	"github.com/bugnanetwork/bugnad/domain/consensus/model"
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/testapi"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/multiset"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/testutils"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/transactionhelper"
+	"github.com/wombatlabs/bugnad/domain/consensus"
+	"github.com/wombatlabs/bugnad/domain/consensus/model"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/testapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/multiset"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/testutils"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/transactionhelper"
 )
 
 func TestUTXOCommitment(t *testing.T) {

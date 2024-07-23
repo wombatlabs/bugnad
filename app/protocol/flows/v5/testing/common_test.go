@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/bugnanetwork/bugnad/app/protocol/protocolerrors"
+	"github.com/wombatlabs/bugnad/app/protocol/protocolerrors"
 	"github.com/pkg/errors"
 )
 

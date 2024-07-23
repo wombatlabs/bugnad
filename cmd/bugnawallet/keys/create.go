@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/bugnanetwork/bugnad/cmd/bugnawallet/libbugnawallet"
-	"github.com/bugnanetwork/bugnad/cmd/bugnawallet/utils"
-	"github.com/bugnanetwork/bugnad/domain/dagconfig"
+	"github.com/wombatlabs/bugnad/cmd/bugnawallet/libbugnawallet"
+	"github.com/wombatlabs/bugnad/cmd/bugnawallet/utils"
+	"github.com/wombatlabs/bugnad/domain/dagconfig"
 	"github.com/pkg/errors"
 	"github.com/tyler-smith/go-bip39"
 )

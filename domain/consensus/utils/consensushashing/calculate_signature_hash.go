@@ -1,10 +1,10 @@
 package consensushashing
 
 import (
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/hashes"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/serialization"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/subnetworks"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/hashes"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/serialization"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/subnetworks"
 	"github.com/pkg/errors"
 )
 

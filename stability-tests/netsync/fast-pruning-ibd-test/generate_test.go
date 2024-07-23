@@ -1,10 +1,10 @@
 package fast_pruning_ibd_test
 
 import (
-	"github.com/bugnanetwork/bugnad/domain/consensus"
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/testutils"
-	"github.com/bugnanetwork/bugnad/domain/dagconfig"
+	"github.com/wombatlabs/bugnad/domain/consensus"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/testutils"
+	"github.com/wombatlabs/bugnad/domain/dagconfig"
 	"io/ioutil"
 	"os"
 	"path"

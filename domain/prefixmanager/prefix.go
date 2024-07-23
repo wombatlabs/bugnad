@@ -1,8 +1,8 @@
 package prefixmanager
 
 import (
-	"github.com/bugnanetwork/bugnad/domain/prefixmanager/prefix"
-	"github.com/bugnanetwork/bugnad/infrastructure/db/database"
+	"github.com/wombatlabs/bugnad/domain/prefixmanager/prefix"
+	"github.com/wombatlabs/bugnad/infrastructure/db/database"
 )
 
 var activePrefixKey = database.MakeBucket(nil).Key([]byte("active-prefix"))

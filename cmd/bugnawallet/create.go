@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/bugnanetwork/bugnad/cmd/bugnawallet/libbugnawallet"
-	"github.com/bugnanetwork/bugnad/cmd/bugnawallet/libbugnawallet/bip32"
-	"github.com/bugnanetwork/bugnad/cmd/bugnawallet/utils"
+	"github.com/wombatlabs/bugnad/cmd/bugnawallet/libbugnawallet"
+	"github.com/wombatlabs/bugnad/cmd/bugnawallet/libbugnawallet/bip32"
+	"github.com/wombatlabs/bugnad/cmd/bugnawallet/utils"
 	"github.com/pkg/errors"
 
-	"github.com/bugnanetwork/bugnad/cmd/bugnawallet/keys"
+	"github.com/wombatlabs/bugnad/cmd/bugnawallet/keys"
 )
 
 func create(conf *createConfig) error {

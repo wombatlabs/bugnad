@@ -1,9 +1,9 @@
 package grpcserver
 
 import (
-	"github.com/bugnanetwork/bugnad/infrastructure/network/netadapter/server"
-	"github.com/bugnanetwork/bugnad/infrastructure/network/netadapter/server/grpcserver/protowire"
-	"github.com/bugnanetwork/bugnad/util/panics"
+	"github.com/wombatlabs/bugnad/infrastructure/network/netadapter/server"
+	"github.com/wombatlabs/bugnad/infrastructure/network/netadapter/server/grpcserver/protowire"
+	"github.com/wombatlabs/bugnad/util/panics"
 )
 
 type rpcServer struct {

@@ -2,14 +2,14 @@ package blockrelay
 
 import (
 	"errors"
-	"github.com/bugnanetwork/bugnad/app/appmessage"
-	"github.com/bugnanetwork/bugnad/app/protocol/common"
-	"github.com/bugnanetwork/bugnad/app/protocol/protocolerrors"
-	"github.com/bugnanetwork/bugnad/domain"
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
-	"github.com/bugnanetwork/bugnad/domain/consensus/ruleerrors"
-	"github.com/bugnanetwork/bugnad/infrastructure/logger"
-	"github.com/bugnanetwork/bugnad/infrastructure/network/netadapter/router"
+	"github.com/wombatlabs/bugnad/app/appmessage"
+	"github.com/wombatlabs/bugnad/app/protocol/common"
+	"github.com/wombatlabs/bugnad/app/protocol/protocolerrors"
+	"github.com/wombatlabs/bugnad/domain"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/ruleerrors"
+	"github.com/wombatlabs/bugnad/infrastructure/logger"
+	"github.com/wombatlabs/bugnad/infrastructure/network/netadapter/router"
 )
 
 // HandleRequestPruningPointUTXOSetContext is the interface for the context needed for the HandleRequestPruningPointUTXOSet flow.

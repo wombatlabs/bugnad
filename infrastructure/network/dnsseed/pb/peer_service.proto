@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option go_package = "github.com/bugnanetwork/bugnad/pb";
+option go_package = "github.com/wombatlabs/bugnad/pb";
 
 service PeerService {
   rpc GetPeersList(GetPeersListRequest) returns (GetPeersListResponse) {}

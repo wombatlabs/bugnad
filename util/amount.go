@@ -8,7 +8,7 @@ import (
 	"math"
 	"strconv"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/constants"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/constants"
 	"github.com/pkg/errors"
 )
 

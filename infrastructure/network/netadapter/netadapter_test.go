@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/bugnanetwork/bugnad/app/appmessage"
+	"github.com/wombatlabs/bugnad/app/appmessage"
 
-	"github.com/bugnanetwork/bugnad/infrastructure/config"
-	"github.com/bugnanetwork/bugnad/infrastructure/network/netadapter/router"
+	"github.com/wombatlabs/bugnad/infrastructure/config"
+	"github.com/wombatlabs/bugnad/infrastructure/network/netadapter/router"
 )
 
 // routerInitializerForTest returns new RouterInitializer which simply sets

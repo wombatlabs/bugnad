@@ -3,9 +3,9 @@ package mine
 import (
 	"path/filepath"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
-	"github.com/bugnanetwork/bugnad/infrastructure/db/database"
-	"github.com/bugnanetwork/bugnad/infrastructure/db/database/ldb"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/infrastructure/db/database"
+	"github.com/wombatlabs/bugnad/infrastructure/db/database/ldb"
 )
 
 const leveldbCacheSizeMiB = 256

@@ -3,21 +3,21 @@ package server
 import (
 	"testing"
 
-	"github.com/bugnanetwork/bugnad/cmd/bugnawallet/libbugnawallet"
-	"github.com/bugnanetwork/bugnad/cmd/bugnawallet/libbugnawallet/serialization"
+	"github.com/wombatlabs/bugnad/cmd/bugnawallet/libbugnawallet"
+	"github.com/wombatlabs/bugnad/cmd/bugnawallet/libbugnawallet/serialization"
 
-	"github.com/bugnanetwork/bugnad/cmd/bugnawallet/keys"
-	"github.com/bugnanetwork/bugnad/util/txmass"
+	"github.com/wombatlabs/bugnad/cmd/bugnawallet/keys"
+	"github.com/wombatlabs/bugnad/util/txmass"
 
-	"github.com/bugnanetwork/bugnad/domain/dagconfig"
+	"github.com/wombatlabs/bugnad/domain/dagconfig"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/consensushashing"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/txscript"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/utxo"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/consensushashing"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/txscript"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/utxo"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/testutils"
+	"github.com/wombatlabs/bugnad/domain/consensus"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/testutils"
 )
 
 func TestEstimateMassAfterSignatures(t *testing.T) {

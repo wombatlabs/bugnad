@@ -3,10 +3,10 @@ package utxoindex
 import (
 	"encoding/binary"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus/database/binaryserialization"
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
-	"github.com/bugnanetwork/bugnad/infrastructure/db/database"
-	"github.com/bugnanetwork/bugnad/infrastructure/logger"
+	"github.com/wombatlabs/bugnad/domain/consensus/database/binaryserialization"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/infrastructure/db/database"
+	"github.com/wombatlabs/bugnad/infrastructure/logger"
 	"github.com/pkg/errors"
 )
 

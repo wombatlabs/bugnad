@@ -2,9 +2,9 @@ package addressmanager
 
 import (
 	"encoding/binary"
-	"github.com/bugnanetwork/bugnad/app/appmessage"
-	"github.com/bugnanetwork/bugnad/infrastructure/db/database"
-	"github.com/bugnanetwork/bugnad/util/mstime"
+	"github.com/wombatlabs/bugnad/app/appmessage"
+	"github.com/wombatlabs/bugnad/infrastructure/db/database"
+	"github.com/wombatlabs/bugnad/util/mstime"
 	"github.com/pkg/errors"
 	"net"
 )

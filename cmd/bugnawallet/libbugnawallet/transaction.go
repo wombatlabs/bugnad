@@ -1,13 +1,13 @@
 package libbugnawallet
 
 import (
-	"github.com/bugnanetwork/bugnad/cmd/bugnawallet/libbugnawallet/bip32"
-	"github.com/bugnanetwork/bugnad/cmd/bugnawallet/libbugnawallet/serialization"
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/constants"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/subnetworks"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/txscript"
-	"github.com/bugnanetwork/bugnad/util"
+	"github.com/wombatlabs/bugnad/cmd/bugnawallet/libbugnawallet/bip32"
+	"github.com/wombatlabs/bugnad/cmd/bugnawallet/libbugnawallet/serialization"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/constants"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/subnetworks"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/txscript"
+	"github.com/wombatlabs/bugnad/util"
 	"github.com/pkg/errors"
 )
 

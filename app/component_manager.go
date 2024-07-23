@@ -4,22 +4,22 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
 
-	"github.com/bugnanetwork/bugnad/domain/miningmanager/mempool"
+	"github.com/wombatlabs/bugnad/domain/miningmanager/mempool"
 
-	"github.com/bugnanetwork/bugnad/app/protocol"
-	"github.com/bugnanetwork/bugnad/app/rpc"
-	"github.com/bugnanetwork/bugnad/domain"
-	"github.com/bugnanetwork/bugnad/domain/consensus"
-	"github.com/bugnanetwork/bugnad/domain/utxoindex"
-	"github.com/bugnanetwork/bugnad/infrastructure/config"
-	infrastructuredatabase "github.com/bugnanetwork/bugnad/infrastructure/db/database"
-	"github.com/bugnanetwork/bugnad/infrastructure/network/addressmanager"
-	"github.com/bugnanetwork/bugnad/infrastructure/network/connmanager"
-	"github.com/bugnanetwork/bugnad/infrastructure/network/netadapter"
-	"github.com/bugnanetwork/bugnad/infrastructure/network/netadapter/id"
-	"github.com/bugnanetwork/bugnad/util/panics"
+	"github.com/wombatlabs/bugnad/app/protocol"
+	"github.com/wombatlabs/bugnad/app/rpc"
+	"github.com/wombatlabs/bugnad/domain"
+	"github.com/wombatlabs/bugnad/domain/consensus"
+	"github.com/wombatlabs/bugnad/domain/utxoindex"
+	"github.com/wombatlabs/bugnad/infrastructure/config"
+	infrastructuredatabase "github.com/wombatlabs/bugnad/infrastructure/db/database"
+	"github.com/wombatlabs/bugnad/infrastructure/network/addressmanager"
+	"github.com/wombatlabs/bugnad/infrastructure/network/connmanager"
+	"github.com/wombatlabs/bugnad/infrastructure/network/netadapter"
+	"github.com/wombatlabs/bugnad/infrastructure/network/netadapter/id"
+	"github.com/wombatlabs/bugnad/util/panics"
 )
 
 // ComponentManager is a wrapper for all the bugnad services

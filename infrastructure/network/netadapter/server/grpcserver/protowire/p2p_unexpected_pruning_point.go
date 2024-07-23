@@ -1,6 +1,6 @@
 package protowire
 
-import "github.com/bugnanetwork/bugnad/app/appmessage"
+import "github.com/wombatlabs/bugnad/app/appmessage"
 
 func (x *BugnadMessage_UnexpectedPruningPoint) toAppMessage() (appmessage.Message, error) {
 	return &appmessage.MsgUnexpectedPruningPoint{}, nil

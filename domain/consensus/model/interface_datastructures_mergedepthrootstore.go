@@ -1,7 +1,7 @@
 package model
 
 import (
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
 )
 
 // MergeDepthRootStore represents a store for merge depth roots

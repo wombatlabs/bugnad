@@ -7,7 +7,7 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/bugnanetwork/bugnad/domain/dagconfig"
+	"github.com/wombatlabs/bugnad/domain/dagconfig"
 )
 
 // RunBugnadForTesting runs bugnad for testing purposes

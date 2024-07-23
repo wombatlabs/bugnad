@@ -4,11 +4,11 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/bugnanetwork/bugnad/util/txmass"
+	"github.com/wombatlabs/bugnad/util/txmass"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus/model"
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
-	"github.com/bugnanetwork/bugnad/util/difficulty"
+	"github.com/wombatlabs/bugnad/domain/consensus/model"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/util/difficulty"
 )
 
 // blockValidator exposes a set of validation classes, after which

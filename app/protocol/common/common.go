@@ -1,8 +1,8 @@
 package common
 
 import (
-	peerpkg "github.com/bugnanetwork/bugnad/app/protocol/peer"
-	routerpkg "github.com/bugnanetwork/bugnad/infrastructure/network/netadapter/router"
+	peerpkg "github.com/wombatlabs/bugnad/app/protocol/peer"
+	routerpkg "github.com/wombatlabs/bugnad/infrastructure/network/netadapter/router"
 	"time"
 
 	"github.com/pkg/errors"

@@ -1,12 +1,12 @@
 package integration
 
 import (
-	"github.com/bugnanetwork/bugnad/infrastructure/config"
+	"github.com/wombatlabs/bugnad/infrastructure/config"
 	"runtime"
 	"testing"
 	"time"
 
-	"github.com/bugnanetwork/bugnad/infrastructure/network/rpcclient"
+	"github.com/wombatlabs/bugnad/infrastructure/network/rpcclient"
 )
 
 const rpcTimeout = 10 * time.Second

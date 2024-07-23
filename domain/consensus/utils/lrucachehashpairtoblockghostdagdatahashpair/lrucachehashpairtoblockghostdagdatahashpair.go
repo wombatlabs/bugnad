@@ -1,6 +1,6 @@
 package lrucachehashpairtoblockghostdagdatahashpair
 
-import "github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
+import "github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
 
 type lruKey struct {
 	blockHash externalapi.DomainHash

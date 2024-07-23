@@ -4,7 +4,7 @@ import (
 	"encoding/binary"
 	"math/bits"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
 )
 
 type xoShiRo256PlusPlus struct {

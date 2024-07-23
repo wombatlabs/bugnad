@@ -1,7 +1,7 @@
 syntax = "proto3";
 package protoserialization;
 
-option go_package = "github.com/bugnanetwork/bugnad/cmd/bugnawallet/libbugnawallet/serialization/protoserialization";
+option go_package = "github.com/wombatlabs/bugnad/cmd/bugnawallet/libbugnawallet/serialization/protoserialization";
 
 message PartiallySignedTransaction{
   TransactionMessage tx = 1;

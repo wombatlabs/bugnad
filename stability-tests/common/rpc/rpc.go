@@ -3,10 +3,10 @@ package rpc
 import (
 	"time"
 
-	"github.com/bugnanetwork/bugnad/app/appmessage"
-	"github.com/bugnanetwork/bugnad/infrastructure/network/rpcclient"
+	"github.com/wombatlabs/bugnad/app/appmessage"
+	"github.com/wombatlabs/bugnad/infrastructure/network/rpcclient"
 
-	"github.com/bugnanetwork/bugnad/domain/dagconfig"
+	"github.com/wombatlabs/bugnad/domain/dagconfig"
 )
 
 const defaultRPCServer = "localhost"

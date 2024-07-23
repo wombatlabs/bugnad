@@ -3,16 +3,16 @@ package standalone
 import (
 	"sync"
 
-	"github.com/bugnanetwork/bugnad/app/protocol/common"
-	"github.com/bugnanetwork/bugnad/util/mstime"
+	"github.com/wombatlabs/bugnad/app/protocol/common"
+	"github.com/wombatlabs/bugnad/util/mstime"
 
-	"github.com/bugnanetwork/bugnad/infrastructure/network/netadapter/id"
+	"github.com/wombatlabs/bugnad/infrastructure/network/netadapter/id"
 
-	"github.com/bugnanetwork/bugnad/app/appmessage"
-	"github.com/bugnanetwork/bugnad/infrastructure/network/netadapter/router"
+	"github.com/wombatlabs/bugnad/app/appmessage"
+	"github.com/wombatlabs/bugnad/infrastructure/network/netadapter/router"
 
-	"github.com/bugnanetwork/bugnad/infrastructure/config"
-	"github.com/bugnanetwork/bugnad/infrastructure/network/netadapter"
+	"github.com/wombatlabs/bugnad/infrastructure/config"
+	"github.com/wombatlabs/bugnad/infrastructure/network/netadapter"
 
 	"github.com/pkg/errors"
 )

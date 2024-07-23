@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/bugnanetwork/bugnad/infrastructure/config"
-	"github.com/bugnanetwork/bugnad/infrastructure/network/netadapter/standalone"
+	"github.com/wombatlabs/bugnad/infrastructure/config"
+	"github.com/wombatlabs/bugnad/infrastructure/network/netadapter/standalone"
 )
 
 func connectToNode() *standalone.Routes {

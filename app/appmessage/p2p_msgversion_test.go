@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/bugnanetwork/bugnad/infrastructure/network/netadapter/id"
+	"github.com/wombatlabs/bugnad/infrastructure/network/netadapter/id"
 	"github.com/davecgh/go-spew/spew"
 )
 

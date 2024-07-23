@@ -6,11 +6,11 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus/model"
+	"github.com/wombatlabs/bugnad/domain/consensus/model"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus"
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/testutils"
+	"github.com/wombatlabs/bugnad/domain/consensus"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/testutils"
 )
 
 func TestSyncManager_GetHashesBetween(t *testing.T) {

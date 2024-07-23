@@ -1,10 +1,10 @@
 package rpchandlers
 
 import (
-	"github.com/bugnanetwork/bugnad/app/appmessage"
-	"github.com/bugnanetwork/bugnad/app/rpc/rpccontext"
-	"github.com/bugnanetwork/bugnad/infrastructure/network/netadapter/router"
-	"github.com/bugnanetwork/bugnad/util/network"
+	"github.com/wombatlabs/bugnad/app/appmessage"
+	"github.com/wombatlabs/bugnad/app/rpc/rpccontext"
+	"github.com/wombatlabs/bugnad/infrastructure/network/netadapter/router"
+	"github.com/wombatlabs/bugnad/util/network"
 )
 
 // HandleAddPeer handles the respectively named RPC command

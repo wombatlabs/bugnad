@@ -2,9 +2,9 @@ package grpcserver
 
 import (
 	"context"
-	"github.com/bugnanetwork/bugnad/infrastructure/network/netadapter/server"
-	"github.com/bugnanetwork/bugnad/infrastructure/network/netadapter/server/grpcserver/protowire"
-	"github.com/bugnanetwork/bugnad/util/panics"
+	"github.com/wombatlabs/bugnad/infrastructure/network/netadapter/server"
+	"github.com/wombatlabs/bugnad/infrastructure/network/netadapter/server/grpcserver/protowire"
+	"github.com/wombatlabs/bugnad/util/panics"
 	"github.com/pkg/errors"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/encoding/gzip"

@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/bugnanetwork/bugnad/cmd/bugnawallet/daemon/pb"
-	"github.com/bugnanetwork/bugnad/cmd/bugnawallet/libbugnawallet"
-	"github.com/bugnanetwork/bugnad/util"
+	"github.com/wombatlabs/bugnad/cmd/bugnawallet/daemon/pb"
+	"github.com/wombatlabs/bugnad/cmd/bugnawallet/libbugnawallet"
+	"github.com/wombatlabs/bugnad/util"
 	"github.com/pkg/errors"
 )
 

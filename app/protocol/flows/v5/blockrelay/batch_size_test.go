@@ -1,7 +1,7 @@
 package blockrelay
 
 import (
-	"github.com/bugnanetwork/bugnad/infrastructure/network/netadapter/router"
+	"github.com/wombatlabs/bugnad/infrastructure/network/netadapter/router"
 	"testing"
 )
 

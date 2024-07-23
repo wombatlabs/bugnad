@@ -1,11 +1,11 @@
 package flowcontext
 
 import (
-	"github.com/bugnanetwork/bugnad/app/appmessage"
-	"github.com/bugnanetwork/bugnad/app/protocol/common"
-	peerpkg "github.com/bugnanetwork/bugnad/app/protocol/peer"
-	"github.com/bugnanetwork/bugnad/infrastructure/network/connmanager"
-	"github.com/bugnanetwork/bugnad/infrastructure/network/netadapter"
+	"github.com/wombatlabs/bugnad/app/appmessage"
+	"github.com/wombatlabs/bugnad/app/protocol/common"
+	peerpkg "github.com/wombatlabs/bugnad/app/protocol/peer"
+	"github.com/wombatlabs/bugnad/infrastructure/network/connmanager"
+	"github.com/wombatlabs/bugnad/infrastructure/network/netadapter"
 	"github.com/pkg/errors"
 )
 

@@ -5,16 +5,16 @@ import (
 	_ "embed"
 	"fmt"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus/model"
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
-	"github.com/bugnanetwork/bugnad/domain/consensus/ruleerrors"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/consensushashing"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/multiset"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/utxo"
-	"github.com/bugnanetwork/bugnad/infrastructure/db/database"
-	"github.com/bugnanetwork/bugnad/infrastructure/logger"
-	"github.com/bugnanetwork/bugnad/util/difficulty"
-	"github.com/bugnanetwork/bugnad/util/staging"
+	"github.com/wombatlabs/bugnad/domain/consensus/model"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/ruleerrors"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/consensushashing"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/multiset"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/utxo"
+	"github.com/wombatlabs/bugnad/infrastructure/db/database"
+	"github.com/wombatlabs/bugnad/infrastructure/logger"
+	"github.com/wombatlabs/bugnad/util/difficulty"
+	"github.com/wombatlabs/bugnad/util/staging"
 	"github.com/pkg/errors"
 )
 
@@ -233,7 +233,7 @@ func (bp *blockProcessor) loadUTXODataForGenesis(stagingArea *model.StagingArea,
 	// pruning point.
 	// The actual UTXO set that fits Mainnet's genesis' UTXO commitment was removed from the codebase in order
 	// to make reduce the consensus initialization time and the compiled binary size, but can be still
-	// found here for anyone to verify: https://github.com/bugnanetwork/bugnad/blob/dbf18d8052f000ba0079be9e79b2d6f5a98b74ca/domain/consensus/processes/blockprocessor/resources/utxos.gz
+	// found here for anyone to verify: https://github.com/wombatlabs/bugnad/blob/dbf18d8052f000ba0079be9e79b2d6f5a98b74ca/domain/consensus/processes/blockprocessor/resources/utxos.gz
 	bp.consensusStateStore.StageVirtualUTXODiff(stagingArea, utxo.NewUTXODiff())
 	bp.utxoDiffStore.Stage(stagingArea, blockHash, utxo.NewUTXODiff(), nil)
 	bp.multisetStore.Stage(stagingArea, blockHash, multiset.New())

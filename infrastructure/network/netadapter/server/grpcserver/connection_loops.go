@@ -7,14 +7,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/bugnanetwork/bugnad/app/appmessage"
-	"github.com/bugnanetwork/bugnad/infrastructure/logger"
+	"github.com/wombatlabs/bugnad/app/appmessage"
+	"github.com/wombatlabs/bugnad/infrastructure/logger"
 	"github.com/davecgh/go-spew/spew"
 
-	routerpkg "github.com/bugnanetwork/bugnad/infrastructure/network/netadapter/router"
+	routerpkg "github.com/wombatlabs/bugnad/infrastructure/network/netadapter/router"
 	"github.com/pkg/errors"
 
-	"github.com/bugnanetwork/bugnad/infrastructure/network/netadapter/server/grpcserver/protowire"
+	"github.com/wombatlabs/bugnad/infrastructure/network/netadapter/server/grpcserver/protowire"
 )
 
 func (c *gRPCConnection) connectionLoops() error {

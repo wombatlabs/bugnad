@@ -5,9 +5,9 @@ import (
 	"strings"
 	"sync/atomic"
 
-	"github.com/bugnanetwork/bugnad/infrastructure/network/netadapter/router"
+	"github.com/wombatlabs/bugnad/infrastructure/network/netadapter/router"
 
-	"github.com/bugnanetwork/bugnad/app/protocol/protocolerrors"
+	"github.com/wombatlabs/bugnad/app/protocol/protocolerrors"
 )
 
 var (

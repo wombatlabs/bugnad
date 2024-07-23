@@ -8,9 +8,9 @@ import (
 	"math"
 	"testing"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/constants"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/constants"
 
-	. "github.com/bugnanetwork/bugnad/util"
+	. "github.com/wombatlabs/bugnad/util"
 )
 
 func TestAmountCreation(t *testing.T) {

@@ -1,7 +1,7 @@
 package connmanager
 
 import (
-	"github.com/bugnanetwork/bugnad/infrastructure/network/netadapter"
+	"github.com/wombatlabs/bugnad/infrastructure/network/netadapter"
 )
 
 type connectionSet map[string]*netadapter.NetConnection

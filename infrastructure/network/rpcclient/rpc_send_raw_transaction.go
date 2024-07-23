@@ -1,7 +1,7 @@
 package rpcclient
 
 import (
-	"github.com/bugnanetwork/bugnad/app/appmessage"
+	"github.com/wombatlabs/bugnad/app/appmessage"
 )
 
 // SubmitTransaction sends an RPC request respective to the function's name and returns the RPC server's response

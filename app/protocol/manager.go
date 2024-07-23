@@ -5,20 +5,20 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/bugnanetwork/bugnad/app/protocol/common"
+	"github.com/wombatlabs/bugnad/app/protocol/common"
 
 	"github.com/pkg/errors"
 
-	"github.com/bugnanetwork/bugnad/domain"
+	"github.com/wombatlabs/bugnad/domain"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
 
-	"github.com/bugnanetwork/bugnad/app/protocol/flowcontext"
-	peerpkg "github.com/bugnanetwork/bugnad/app/protocol/peer"
-	"github.com/bugnanetwork/bugnad/infrastructure/config"
-	"github.com/bugnanetwork/bugnad/infrastructure/network/addressmanager"
-	"github.com/bugnanetwork/bugnad/infrastructure/network/connmanager"
-	"github.com/bugnanetwork/bugnad/infrastructure/network/netadapter"
+	"github.com/wombatlabs/bugnad/app/protocol/flowcontext"
+	peerpkg "github.com/wombatlabs/bugnad/app/protocol/peer"
+	"github.com/wombatlabs/bugnad/infrastructure/config"
+	"github.com/wombatlabs/bugnad/infrastructure/network/addressmanager"
+	"github.com/wombatlabs/bugnad/infrastructure/network/connmanager"
+	"github.com/wombatlabs/bugnad/infrastructure/network/netadapter"
 )
 
 // Manager manages the p2p protocol

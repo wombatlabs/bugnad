@@ -2,7 +2,7 @@ package profiling
 
 import (
 	"fmt"
-	"github.com/bugnanetwork/bugnad/infrastructure/logger"
+	"github.com/wombatlabs/bugnad/infrastructure/logger"
 	"net"
 	"net/http"
 	"os"
@@ -12,7 +12,7 @@ import (
 	// Required for profiling
 	_ "net/http/pprof"
 
-	"github.com/bugnanetwork/bugnad/util/panics"
+	"github.com/wombatlabs/bugnad/util/panics"
 	"runtime"
 	"runtime/pprof"
 )

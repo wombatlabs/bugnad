@@ -3,8 +3,8 @@ package serialization
 import (
 	"io"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
-	"github.com/bugnanetwork/bugnad/util/binaryserializer"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/util/binaryserializer"
 	"github.com/pkg/errors"
 )
 

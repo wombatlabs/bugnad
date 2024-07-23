@@ -3,9 +3,9 @@ package serialization
 import (
 	"math"
 
-	"github.com/bugnanetwork/bugnad/cmd/bugnawallet/libbugnawallet/serialization/protoserialization"
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/subnetworks"
+	"github.com/wombatlabs/bugnad/cmd/bugnawallet/libbugnawallet/serialization/protoserialization"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/subnetworks"
 	"github.com/pkg/errors"
 	"google.golang.org/protobuf/proto"
 )

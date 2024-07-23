@@ -1,13 +1,13 @@
 package ready
 
 import (
-	"github.com/bugnanetwork/bugnad/app/appmessage"
-	"github.com/bugnanetwork/bugnad/app/protocol/common"
+	"github.com/wombatlabs/bugnad/app/appmessage"
+	"github.com/wombatlabs/bugnad/app/protocol/common"
 	"sync/atomic"
 
-	peerpkg "github.com/bugnanetwork/bugnad/app/protocol/peer"
-	"github.com/bugnanetwork/bugnad/app/protocol/protocolerrors"
-	routerpkg "github.com/bugnanetwork/bugnad/infrastructure/network/netadapter/router"
+	peerpkg "github.com/wombatlabs/bugnad/app/protocol/peer"
+	"github.com/wombatlabs/bugnad/app/protocol/protocolerrors"
+	routerpkg "github.com/wombatlabs/bugnad/infrastructure/network/netadapter/router"
 	"github.com/pkg/errors"
 )
 

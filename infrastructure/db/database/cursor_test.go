@@ -8,7 +8,7 @@ package database_test
 import (
 	"bytes"
 	"fmt"
-	"github.com/bugnanetwork/bugnad/infrastructure/db/database"
+	"github.com/wombatlabs/bugnad/infrastructure/db/database"
 	"reflect"
 	"strings"
 	"testing"

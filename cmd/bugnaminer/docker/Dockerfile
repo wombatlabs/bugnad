@@ -1,9 +1,9 @@
 # -- multistage docker build: stage #1: build stage
 FROM golang:1.19-alpine AS build
 
-RUN mkdir -p /go/src/github.com/bugnanetwork/bugnad
+RUN mkdir -p /go/src/github.com/wombatlabs/bugnad
 
-WORKDIR /go/src/github.com/bugnanetwork/bugnad
+WORKDIR /go/src/github.com/wombatlabs/bugnad
 
 RUN apk add --no-cache curl git openssh binutils gcc musl-dev
 
@@ -14,7 +14,7 @@ RUN go mod download
 
 COPY . .
 
-WORKDIR /go/src/github.com/bugnanetwork/bugnad/cmd/bugnaminer
+WORKDIR /go/src/github.com/wombatlabs/bugnad/cmd/bugnaminer
 RUN GOOS=linux go build -a -installsuffix cgo -o bugnaminer .
 
 # --- multistage docker build: stage #2: runtime image
@@ -23,7 +23,7 @@ WORKDIR /app
 
 RUN apk add --no-cache ca-certificates tini
 
-COPY --from=build /go/src/github.com/bugnanetwork/bugnad/cmd/bugnaminer/bugnaminer /app/
+COPY --from=build /go/src/github.com/wombatlabs/bugnad/cmd/bugnaminer/bugnaminer /app/
 
 USER nobody
 ENTRYPOINT [ "/sbin/tini", "--" ]

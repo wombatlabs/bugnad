@@ -1,8 +1,8 @@
 package transactionhelper
 
 import (
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/subnetworks"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/subnetworks"
 )
 
 // CoinbaseTransactionIndex is the index of the coinbase transaction in every block

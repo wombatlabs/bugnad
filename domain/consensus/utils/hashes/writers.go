@@ -3,7 +3,7 @@ package hashes
 import (
 	"hash"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
 	"github.com/pkg/errors"
 	"golang.org/x/crypto/sha3"
 )

@@ -7,18 +7,18 @@ import (
 	"sync"
 	"time"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
 
-	"github.com/bugnanetwork/bugnad/util/txmass"
+	"github.com/wombatlabs/bugnad/util/txmass"
 
-	"github.com/bugnanetwork/bugnad/util/profiling"
+	"github.com/wombatlabs/bugnad/util/profiling"
 
-	"github.com/bugnanetwork/bugnad/cmd/bugnawallet/daemon/pb"
-	"github.com/bugnanetwork/bugnad/cmd/bugnawallet/keys"
-	"github.com/bugnanetwork/bugnad/domain/dagconfig"
-	"github.com/bugnanetwork/bugnad/infrastructure/network/rpcclient"
-	"github.com/bugnanetwork/bugnad/infrastructure/os/signal"
-	"github.com/bugnanetwork/bugnad/util/panics"
+	"github.com/wombatlabs/bugnad/cmd/bugnawallet/daemon/pb"
+	"github.com/wombatlabs/bugnad/cmd/bugnawallet/keys"
+	"github.com/wombatlabs/bugnad/domain/dagconfig"
+	"github.com/wombatlabs/bugnad/infrastructure/network/rpcclient"
+	"github.com/wombatlabs/bugnad/infrastructure/os/signal"
+	"github.com/wombatlabs/bugnad/util/panics"
 	"github.com/pkg/errors"
 
 	"google.golang.org/grpc"

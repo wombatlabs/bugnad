@@ -2,7 +2,7 @@ database
 ========
 
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](https://choosealicense.com/licenses/isc/)
-[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/bugnanetwork/bugnad/database)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/wombatlabs/bugnad/database)
 
 Package database provides a database for bugnad.
 

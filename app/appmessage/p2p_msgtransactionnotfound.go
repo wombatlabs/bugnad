@@ -5,7 +5,7 @@
 package appmessage
 
 import (
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
 )
 
 // MsgTransactionNotFound defines a bugna TransactionNotFound message which is sent in response to

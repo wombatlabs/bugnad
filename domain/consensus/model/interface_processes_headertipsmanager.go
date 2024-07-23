@@ -1,6 +1,6 @@
 package model
 
-import "github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
+import "github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
 
 // HeadersSelectedTipManager manages the state of the headers selected tip
 type HeadersSelectedTipManager interface {

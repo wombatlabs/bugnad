@@ -3,7 +3,7 @@ package server
 import (
 	"context"
 
-	"github.com/bugnanetwork/bugnad/cmd/bugnawallet/daemon/pb"
+	"github.com/wombatlabs/bugnad/cmd/bugnawallet/daemon/pb"
 )
 
 func (s *server) Send(_ context.Context, request *pb.SendRequest) (*pb.SendResponse, error) {

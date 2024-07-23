@@ -7,17 +7,17 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/bugnanetwork/bugnad/infrastructure/config"
-	"github.com/bugnanetwork/bugnad/infrastructure/db/database"
-	"github.com/bugnanetwork/bugnad/infrastructure/db/database/ldb"
-	"github.com/bugnanetwork/bugnad/infrastructure/logger"
-	"github.com/bugnanetwork/bugnad/infrastructure/os/execenv"
-	"github.com/bugnanetwork/bugnad/infrastructure/os/limits"
-	"github.com/bugnanetwork/bugnad/infrastructure/os/signal"
-	"github.com/bugnanetwork/bugnad/infrastructure/os/winservice"
-	"github.com/bugnanetwork/bugnad/util/panics"
-	"github.com/bugnanetwork/bugnad/util/profiling"
-	"github.com/bugnanetwork/bugnad/version"
+	"github.com/wombatlabs/bugnad/infrastructure/config"
+	"github.com/wombatlabs/bugnad/infrastructure/db/database"
+	"github.com/wombatlabs/bugnad/infrastructure/db/database/ldb"
+	"github.com/wombatlabs/bugnad/infrastructure/logger"
+	"github.com/wombatlabs/bugnad/infrastructure/os/execenv"
+	"github.com/wombatlabs/bugnad/infrastructure/os/limits"
+	"github.com/wombatlabs/bugnad/infrastructure/os/signal"
+	"github.com/wombatlabs/bugnad/infrastructure/os/winservice"
+	"github.com/wombatlabs/bugnad/util/panics"
+	"github.com/wombatlabs/bugnad/util/profiling"
+	"github.com/wombatlabs/bugnad/version"
 )
 
 const (

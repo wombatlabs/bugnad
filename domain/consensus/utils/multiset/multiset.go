@@ -1,8 +1,8 @@
 package multiset
 
 import (
-	"github.com/bugnanetwork/bugnad/domain/consensus/model"
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/model"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
 	"github.com/kaspanet/go-muhash"
 	"github.com/pkg/errors"
 )

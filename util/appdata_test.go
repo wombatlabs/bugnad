@@ -12,7 +12,7 @@ import (
 	"testing"
 	"unicode"
 
-	"github.com/bugnanetwork/bugnad/util"
+	"github.com/wombatlabs/bugnad/util"
 )
 
 // TestAppDataDir tests the API for AppDir to ensure it gives expected

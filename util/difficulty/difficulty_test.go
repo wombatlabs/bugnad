@@ -2,14 +2,14 @@ package difficulty_test
 
 import (
 	"fmt"
-	"github.com/bugnanetwork/bugnad/domain/consensus"
+	"github.com/wombatlabs/bugnad/domain/consensus"
 	"math"
 	"math/big"
 	"testing"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/testutils"
-	"github.com/bugnanetwork/bugnad/domain/dagconfig"
-	"github.com/bugnanetwork/bugnad/util/difficulty"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/testutils"
+	"github.com/wombatlabs/bugnad/domain/dagconfig"
+	"github.com/wombatlabs/bugnad/util/difficulty"
 )
 
 func TestGetHashrateString(t *testing.T) {

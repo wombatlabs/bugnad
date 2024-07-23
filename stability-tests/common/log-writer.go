@@ -3,7 +3,7 @@ package common
 import (
 	"strings"
 
-	"github.com/bugnanetwork/bugnad/infrastructure/logger"
+	"github.com/wombatlabs/bugnad/infrastructure/logger"
 )
 
 // LogWriter writes to the given log with the given log level and prefix

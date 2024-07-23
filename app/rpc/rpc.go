@@ -1,11 +1,11 @@
 package rpc
 
 import (
-	"github.com/bugnanetwork/bugnad/app/appmessage"
-	"github.com/bugnanetwork/bugnad/app/rpc/rpccontext"
-	"github.com/bugnanetwork/bugnad/app/rpc/rpchandlers"
-	"github.com/bugnanetwork/bugnad/infrastructure/network/netadapter"
-	"github.com/bugnanetwork/bugnad/infrastructure/network/netadapter/router"
+	"github.com/wombatlabs/bugnad/app/appmessage"
+	"github.com/wombatlabs/bugnad/app/rpc/rpccontext"
+	"github.com/wombatlabs/bugnad/app/rpc/rpchandlers"
+	"github.com/wombatlabs/bugnad/infrastructure/network/netadapter"
+	"github.com/wombatlabs/bugnad/infrastructure/network/netadapter/router"
 	"github.com/pkg/errors"
 )
 

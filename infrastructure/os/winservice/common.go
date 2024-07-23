@@ -1,6 +1,6 @@
 package winservice
 
-import "github.com/bugnanetwork/bugnad/infrastructure/config"
+import "github.com/wombatlabs/bugnad/infrastructure/config"
 
 // ServiceDescription contains information about a service, needed to administer it
 type ServiceDescription struct {

@@ -5,8 +5,8 @@ import (
 	"sort"
 	"time"
 
-	"github.com/bugnanetwork/bugnad/app/appmessage"
-	"github.com/bugnanetwork/bugnad/cmd/bugnawallet/libbugnawallet"
+	"github.com/wombatlabs/bugnad/app/appmessage"
+	"github.com/wombatlabs/bugnad/cmd/bugnawallet/libbugnawallet"
 	"github.com/pkg/errors"
 )
 

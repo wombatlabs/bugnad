@@ -4,9 +4,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
-	"github.com/bugnanetwork/bugnad/domain/consensusreference"
-	miningmanagermodel "github.com/bugnanetwork/bugnad/domain/miningmanager/model"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/consensusreference"
+	miningmanagermodel "github.com/wombatlabs/bugnad/domain/miningmanager/model"
 )
 
 // MiningManager creates block templates for mining as well as maintaining

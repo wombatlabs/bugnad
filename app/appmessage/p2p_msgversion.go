@@ -8,11 +8,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
-	"github.com/bugnanetwork/bugnad/version"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/version"
 
-	"github.com/bugnanetwork/bugnad/infrastructure/network/netadapter/id"
-	"github.com/bugnanetwork/bugnad/util/mstime"
+	"github.com/wombatlabs/bugnad/infrastructure/network/netadapter/id"
+	"github.com/wombatlabs/bugnad/util/mstime"
 )
 
 // MaxUserAgentLen is the maximum allowed length for the user agent field in a

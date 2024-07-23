@@ -7,12 +7,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/bugnanetwork/bugnad/infrastructure/config"
+	"github.com/wombatlabs/bugnad/infrastructure/config"
 
-	"github.com/bugnanetwork/bugnad/util"
+	"github.com/wombatlabs/bugnad/util"
 	"github.com/pkg/errors"
 
-	"github.com/bugnanetwork/bugnad/version"
+	"github.com/wombatlabs/bugnad/version"
 	"github.com/jessevdk/go-flags"
 )
 

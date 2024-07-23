@@ -1,7 +1,7 @@
 package appmessage
 
 import (
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
 )
 
 // MsgIBDBlockLocator represents a bugna ibdBlockLocator message

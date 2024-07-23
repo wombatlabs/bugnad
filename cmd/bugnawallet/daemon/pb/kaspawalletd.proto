@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option go_package = "github.com/bugnanetwork/bugnad/cmd/bugnawallet/daemon/pb";
+option go_package = "github.com/wombatlabs/bugnad/cmd/bugnawallet/daemon/pb";
 package bugnawalletd;
 
 service bugnawalletd {

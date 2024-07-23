@@ -3,7 +3,7 @@ package protowire
 import (
 	"math"
 
-	"github.com/bugnanetwork/bugnad/app/appmessage"
+	"github.com/wombatlabs/bugnad/app/appmessage"
 	"github.com/pkg/errors"
 )
 

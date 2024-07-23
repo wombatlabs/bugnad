@@ -1,7 +1,7 @@
 package model
 
 import (
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
 )
 
 // DifficultyManager provides a method to resolve the

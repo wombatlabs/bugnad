@@ -3,14 +3,14 @@ package headersselectedchainstore
 import (
 	"encoding/binary"
 
-	"github.com/bugnanetwork/bugnad/util/staging"
+	"github.com/wombatlabs/bugnad/util/staging"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus/database"
-	"github.com/bugnanetwork/bugnad/domain/consensus/database/binaryserialization"
-	"github.com/bugnanetwork/bugnad/domain/consensus/model"
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/lrucache"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/lrucacheuint64tohash"
+	"github.com/wombatlabs/bugnad/domain/consensus/database"
+	"github.com/wombatlabs/bugnad/domain/consensus/database/binaryserialization"
+	"github.com/wombatlabs/bugnad/domain/consensus/model"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/lrucache"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/lrucacheuint64tohash"
 	"github.com/pkg/errors"
 )
 

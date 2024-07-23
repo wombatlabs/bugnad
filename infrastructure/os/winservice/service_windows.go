@@ -9,9 +9,9 @@ import (
 
 	"github.com/btcsuite/winsvc/eventlog"
 	"github.com/btcsuite/winsvc/svc"
-	"github.com/bugnanetwork/bugnad/infrastructure/config"
-	"github.com/bugnanetwork/bugnad/infrastructure/os/signal"
-	"github.com/bugnanetwork/bugnad/version"
+	"github.com/wombatlabs/bugnad/infrastructure/config"
+	"github.com/wombatlabs/bugnad/infrastructure/os/signal"
+	"github.com/wombatlabs/bugnad/version"
 )
 
 // Service houses the main service handler which handles all service

@@ -5,17 +5,17 @@ import (
 	"math"
 	"math/big"
 
-	difficultyPackage "github.com/bugnanetwork/bugnad/util/difficulty"
+	difficultyPackage "github.com/wombatlabs/bugnad/util/difficulty"
 	"github.com/pkg/errors"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/hashes"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/hashes"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/txscript"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/txscript"
 
-	"github.com/bugnanetwork/bugnad/app/appmessage"
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/consensushashing"
-	"github.com/bugnanetwork/bugnad/domain/dagconfig"
+	"github.com/wombatlabs/bugnad/app/appmessage"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/consensushashing"
+	"github.com/wombatlabs/bugnad/domain/dagconfig"
 )
 
 // ErrBuildBlockVerboseDataInvalidBlock indicates that a block that was given to BuildBlockVerboseData is invalid.

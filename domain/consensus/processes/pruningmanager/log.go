@@ -1,5 +1,5 @@
 package pruningmanager
 
-import "github.com/bugnanetwork/bugnad/infrastructure/logger"
+import "github.com/wombatlabs/bugnad/infrastructure/logger"
 
 var log = logger.RegisterSubSystem("PRNM")

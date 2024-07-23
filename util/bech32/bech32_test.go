@@ -5,7 +5,7 @@
 package bech32_test
 
 import (
-	"github.com/bugnanetwork/bugnad/util/bech32"
+	"github.com/wombatlabs/bugnad/util/bech32"
 	"testing"
 )
 

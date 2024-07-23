@@ -7,9 +7,9 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/subnetworks"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/subnetworks"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
 )
 
 func TestCreateDefaultConfigFile(t *testing.T) {

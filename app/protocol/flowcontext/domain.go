@@ -1,7 +1,7 @@
 package flowcontext
 
 import (
-	"github.com/bugnanetwork/bugnad/domain"
+	"github.com/wombatlabs/bugnad/domain"
 )
 
 // Domain returns the Domain object associated to the flow context.

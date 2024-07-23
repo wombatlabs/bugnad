@@ -1,7 +1,7 @@
 package math_test
 
 import (
-	utilMath "github.com/bugnanetwork/bugnad/util/math"
+	utilMath "github.com/wombatlabs/bugnad/util/math"
 	"math"
 	"testing"
 )

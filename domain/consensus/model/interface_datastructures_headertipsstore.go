@@ -1,6 +1,6 @@
 package model
 
-import "github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
+import "github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
 
 // HeaderSelectedTipStore represents a store of the headers selected tip
 type HeaderSelectedTipStore interface {

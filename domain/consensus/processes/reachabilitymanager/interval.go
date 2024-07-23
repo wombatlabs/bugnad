@@ -3,7 +3,7 @@ package reachabilitymanager
 import (
 	"math"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus/model"
+	"github.com/wombatlabs/bugnad/domain/consensus/model"
 	"github.com/pkg/errors"
 )
 

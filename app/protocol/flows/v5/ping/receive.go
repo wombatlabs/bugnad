@@ -1,8 +1,8 @@
 package ping
 
 import (
-	"github.com/bugnanetwork/bugnad/app/appmessage"
-	"github.com/bugnanetwork/bugnad/infrastructure/network/netadapter/router"
+	"github.com/wombatlabs/bugnad/app/appmessage"
+	"github.com/wombatlabs/bugnad/infrastructure/network/netadapter/router"
 )
 
 // ReceivePingsContext is the interface for the context needed for the ReceivePings flow.

@@ -1,9 +1,9 @@
 package transactionvalidator
 
 import (
-	"github.com/bugnanetwork/bugnad/domain/consensus/model"
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/testapi"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/txscript"
+	"github.com/wombatlabs/bugnad/domain/consensus/model"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/testapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/txscript"
 )
 
 type testTransactionValidator struct {

@@ -3,7 +3,7 @@ package appmessage
 import (
 	"math/big"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
 )
 
 // MsgBlockWithTrustedData represents a bugna BlockWithTrustedData message

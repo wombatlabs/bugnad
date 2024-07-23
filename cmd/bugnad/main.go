@@ -8,7 +8,7 @@ import (
 	_ "net/http/pprof"
 	"os"
 
-	"github.com/bugnanetwork/bugnad/app"
+	"github.com/wombatlabs/bugnad/app"
 )
 
 func main() {

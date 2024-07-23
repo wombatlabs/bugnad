@@ -5,9 +5,9 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/bugnanetwork/bugnad/util/difficulty"
+	"github.com/wombatlabs/bugnad/util/difficulty"
 
-	"github.com/bugnanetwork/bugnad/util"
+	"github.com/wombatlabs/bugnad/util"
 )
 
 func ExampleAmount() {

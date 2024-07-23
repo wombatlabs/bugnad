@@ -7,10 +7,10 @@ package dagconfig
 import (
 	"math/big"
 
-	"github.com/wombatlabs/coinsecd/domain/consensus/model/externalapi"
-	"github.com/wombatlabs/coinsecd/domain/consensus/utils/blockheader"
-	"github.com/wombatlabs/coinsecd/domain/consensus/utils/subnetworks"
-	"github.com/wombatlabs/coinsecd/domain/consensus/utils/transactionhelper"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/blockheader"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/subnetworks"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/transactionhelper"
 	"github.com/kaspanet/go-muhash"
 )
 

@@ -1,11 +1,11 @@
 package blockrelay
 
 import (
-	"github.com/bugnanetwork/bugnad/app/appmessage"
-	"github.com/bugnanetwork/bugnad/app/protocol/peer"
-	"github.com/bugnanetwork/bugnad/app/protocol/protocolerrors"
-	"github.com/bugnanetwork/bugnad/domain"
-	"github.com/bugnanetwork/bugnad/infrastructure/network/netadapter/router"
+	"github.com/wombatlabs/bugnad/app/appmessage"
+	"github.com/wombatlabs/bugnad/app/protocol/peer"
+	"github.com/wombatlabs/bugnad/app/protocol/protocolerrors"
+	"github.com/wombatlabs/bugnad/domain"
+	"github.com/wombatlabs/bugnad/infrastructure/network/netadapter/router"
 )
 
 // HandleIBDBlockLocatorContext is the interface for the context needed for the HandleIBDBlockLocator flow.

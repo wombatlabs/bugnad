@@ -3,7 +3,7 @@ package dagconfig_test
 import (
 	"testing"
 
-	. "github.com/bugnanetwork/bugnad/domain/dagconfig"
+	. "github.com/wombatlabs/bugnad/domain/dagconfig"
 )
 
 // Define some of the required parameters for a user-registered

@@ -4,12 +4,12 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/bugnanetwork/bugnad/app/appmessage"
-	"github.com/bugnanetwork/bugnad/infrastructure/config"
-	"github.com/bugnanetwork/bugnad/infrastructure/network/netadapter/id"
-	routerpkg "github.com/bugnanetwork/bugnad/infrastructure/network/netadapter/router"
-	"github.com/bugnanetwork/bugnad/infrastructure/network/netadapter/server"
-	"github.com/bugnanetwork/bugnad/infrastructure/network/netadapter/server/grpcserver"
+	"github.com/wombatlabs/bugnad/app/appmessage"
+	"github.com/wombatlabs/bugnad/infrastructure/config"
+	"github.com/wombatlabs/bugnad/infrastructure/network/netadapter/id"
+	routerpkg "github.com/wombatlabs/bugnad/infrastructure/network/netadapter/router"
+	"github.com/wombatlabs/bugnad/infrastructure/network/netadapter/server"
+	"github.com/wombatlabs/bugnad/infrastructure/network/netadapter/server/grpcserver"
 	"github.com/pkg/errors"
 )
 

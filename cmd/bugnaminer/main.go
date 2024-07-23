@@ -4,17 +4,17 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/bugnanetwork/bugnad/util"
+	"github.com/wombatlabs/bugnad/util"
 
-	"github.com/bugnanetwork/bugnad/version"
+	"github.com/wombatlabs/bugnad/version"
 
 	"github.com/pkg/errors"
 
 	_ "net/http/pprof"
 
-	"github.com/bugnanetwork/bugnad/infrastructure/os/signal"
-	"github.com/bugnanetwork/bugnad/util/panics"
-	"github.com/bugnanetwork/bugnad/util/profiling"
+	"github.com/wombatlabs/bugnad/infrastructure/os/signal"
+	"github.com/wombatlabs/bugnad/util/panics"
+	"github.com/wombatlabs/bugnad/util/profiling"
 )
 
 func main() {

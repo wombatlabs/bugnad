@@ -1,16 +1,16 @@
 package v5
 
 import (
-	"github.com/bugnanetwork/bugnad/app/appmessage"
-	"github.com/bugnanetwork/bugnad/app/protocol/common"
-	"github.com/bugnanetwork/bugnad/app/protocol/flowcontext"
-	"github.com/bugnanetwork/bugnad/app/protocol/flows/v5/addressexchange"
-	"github.com/bugnanetwork/bugnad/app/protocol/flows/v5/blockrelay"
-	"github.com/bugnanetwork/bugnad/app/protocol/flows/v5/ping"
-	"github.com/bugnanetwork/bugnad/app/protocol/flows/v5/rejects"
-	"github.com/bugnanetwork/bugnad/app/protocol/flows/v5/transactionrelay"
-	peerpkg "github.com/bugnanetwork/bugnad/app/protocol/peer"
-	routerpkg "github.com/bugnanetwork/bugnad/infrastructure/network/netadapter/router"
+	"github.com/wombatlabs/bugnad/app/appmessage"
+	"github.com/wombatlabs/bugnad/app/protocol/common"
+	"github.com/wombatlabs/bugnad/app/protocol/flowcontext"
+	"github.com/wombatlabs/bugnad/app/protocol/flows/v5/addressexchange"
+	"github.com/wombatlabs/bugnad/app/protocol/flows/v5/blockrelay"
+	"github.com/wombatlabs/bugnad/app/protocol/flows/v5/ping"
+	"github.com/wombatlabs/bugnad/app/protocol/flows/v5/rejects"
+	"github.com/wombatlabs/bugnad/app/protocol/flows/v5/transactionrelay"
+	peerpkg "github.com/wombatlabs/bugnad/app/protocol/peer"
+	routerpkg "github.com/wombatlabs/bugnad/infrastructure/network/netadapter/router"
 )
 
 type protocolManager interface {

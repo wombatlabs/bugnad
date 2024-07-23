@@ -1,7 +1,7 @@
 package integration
 
 import (
-	"github.com/bugnanetwork/bugnad/infrastructure/network/addressmanager"
+	"github.com/wombatlabs/bugnad/infrastructure/network/addressmanager"
 	"testing"
 )
 

@@ -6,8 +6,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/bugnanetwork/bugnad/cmd/bugnawallet/keys"
-	"github.com/bugnanetwork/bugnad/cmd/bugnawallet/libbugnawallet"
+	"github.com/wombatlabs/bugnad/cmd/bugnawallet/keys"
+	"github.com/wombatlabs/bugnad/cmd/bugnawallet/libbugnawallet"
 	"github.com/pkg/errors"
 )
 

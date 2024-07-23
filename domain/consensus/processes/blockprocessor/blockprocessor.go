@@ -3,10 +3,10 @@ package blockprocessor
 import (
 	"time"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus/model"
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
-	"github.com/bugnanetwork/bugnad/domain/consensus/processes/blockprocessor/blocklogger"
-	"github.com/bugnanetwork/bugnad/infrastructure/logger"
+	"github.com/wombatlabs/bugnad/domain/consensus/model"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/processes/blockprocessor/blocklogger"
+	"github.com/wombatlabs/bugnad/infrastructure/logger"
 )
 
 // blockProcessor is responsible for processing incoming blocks

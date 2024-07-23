@@ -7,7 +7,7 @@ package dagconfig
 import (
 	"testing"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/consensushashing"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/consensushashing"
 )
 
 // TestGenesisBlock tests the genesis block of the main network for validity by

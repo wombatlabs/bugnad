@@ -3,18 +3,18 @@ package handshake
 import (
 	"sync/atomic"
 
-	"github.com/bugnanetwork/bugnad/domain"
+	"github.com/wombatlabs/bugnad/domain"
 
-	"github.com/bugnanetwork/bugnad/app/protocol/common"
-	"github.com/bugnanetwork/bugnad/app/protocol/protocolerrors"
-	"github.com/bugnanetwork/bugnad/infrastructure/network/addressmanager"
+	"github.com/wombatlabs/bugnad/app/protocol/common"
+	"github.com/wombatlabs/bugnad/app/protocol/protocolerrors"
+	"github.com/wombatlabs/bugnad/infrastructure/network/addressmanager"
 
-	"github.com/bugnanetwork/bugnad/infrastructure/config"
-	"github.com/bugnanetwork/bugnad/infrastructure/network/netadapter"
+	"github.com/wombatlabs/bugnad/infrastructure/config"
+	"github.com/wombatlabs/bugnad/infrastructure/network/netadapter"
 
-	"github.com/bugnanetwork/bugnad/app/appmessage"
-	peerpkg "github.com/bugnanetwork/bugnad/app/protocol/peer"
-	routerpkg "github.com/bugnanetwork/bugnad/infrastructure/network/netadapter/router"
+	"github.com/wombatlabs/bugnad/app/appmessage"
+	peerpkg "github.com/wombatlabs/bugnad/app/protocol/peer"
+	routerpkg "github.com/wombatlabs/bugnad/infrastructure/network/netadapter/router"
 	"github.com/pkg/errors"
 )
 

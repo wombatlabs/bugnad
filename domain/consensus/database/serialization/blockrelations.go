@@ -1,7 +1,7 @@
 package serialization
 
 import (
-	"github.com/bugnanetwork/bugnad/domain/consensus/model"
+	"github.com/wombatlabs/bugnad/domain/consensus/model"
 )
 
 // DomainBlockRelationsToDbBlockRelations converts model.BlockRelations to DbBlockRelations

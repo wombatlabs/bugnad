@@ -4,10 +4,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/bugnanetwork/bugnad/domain/consensusreference"
-	"github.com/bugnanetwork/bugnad/domain/dagconfig"
-	"github.com/bugnanetwork/bugnad/domain/miningmanager/blocktemplatebuilder"
-	mempoolpkg "github.com/bugnanetwork/bugnad/domain/miningmanager/mempool"
+	"github.com/wombatlabs/bugnad/domain/consensusreference"
+	"github.com/wombatlabs/bugnad/domain/dagconfig"
+	"github.com/wombatlabs/bugnad/domain/miningmanager/blocktemplatebuilder"
+	mempoolpkg "github.com/wombatlabs/bugnad/domain/miningmanager/mempool"
 )
 
 // Factory instantiates new mining managers

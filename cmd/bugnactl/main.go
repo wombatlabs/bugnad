@@ -5,14 +5,14 @@ import (
 	"os"
 	"time"
 
-	"github.com/bugnanetwork/bugnad/version"
+	"github.com/wombatlabs/bugnad/version"
 
-	"github.com/bugnanetwork/bugnad/infrastructure/network/netadapter/server/grpcserver/protowire"
+	"github.com/wombatlabs/bugnad/infrastructure/network/netadapter/server/grpcserver/protowire"
 
 	"github.com/pkg/errors"
 	"google.golang.org/protobuf/encoding/protojson"
 
-	"github.com/bugnanetwork/bugnad/infrastructure/network/rpcclient/grpcclient"
+	"github.com/wombatlabs/bugnad/infrastructure/network/rpcclient/grpcclient"
 )
 
 func main() {

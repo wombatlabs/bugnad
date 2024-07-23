@@ -1,9 +1,9 @@
 package daablocksstore
 
 import (
-	"github.com/bugnanetwork/bugnad/domain/consensus/database/binaryserialization"
-	"github.com/bugnanetwork/bugnad/domain/consensus/model"
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/database/binaryserialization"
+	"github.com/wombatlabs/bugnad/domain/consensus/model"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
 )
 
 type daaBlocksStagingShard struct {

@@ -5,7 +5,7 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/bugnanetwork/bugnad/infrastructure/os/limits"
+	"github.com/wombatlabs/bugnad/infrastructure/os/limits"
 )
 
 // Initialize initializes the execution environment required to run bugnad

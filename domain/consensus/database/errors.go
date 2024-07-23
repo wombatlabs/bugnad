@@ -1,7 +1,7 @@
 package database
 
 import (
-	"github.com/bugnanetwork/bugnad/infrastructure/db/database"
+	"github.com/wombatlabs/bugnad/infrastructure/db/database"
 )
 
 // ErrNotFound denotes that the requested item was not

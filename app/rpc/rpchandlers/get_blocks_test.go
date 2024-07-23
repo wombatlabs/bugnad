@@ -5,18 +5,18 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus/model"
+	"github.com/wombatlabs/bugnad/domain/consensus/model"
 
-	"github.com/bugnanetwork/bugnad/app/appmessage"
-	"github.com/bugnanetwork/bugnad/app/rpc/rpccontext"
-	"github.com/bugnanetwork/bugnad/app/rpc/rpchandlers"
-	"github.com/bugnanetwork/bugnad/domain/consensus"
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/testapi"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/hashes"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/testutils"
-	"github.com/bugnanetwork/bugnad/domain/miningmanager"
-	"github.com/bugnanetwork/bugnad/infrastructure/config"
+	"github.com/wombatlabs/bugnad/app/appmessage"
+	"github.com/wombatlabs/bugnad/app/rpc/rpccontext"
+	"github.com/wombatlabs/bugnad/app/rpc/rpchandlers"
+	"github.com/wombatlabs/bugnad/domain/consensus"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/testapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/hashes"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/testutils"
+	"github.com/wombatlabs/bugnad/domain/miningmanager"
+	"github.com/wombatlabs/bugnad/infrastructure/config"
 )
 
 type fakeDomain struct {

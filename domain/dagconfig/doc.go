@@ -27,8 +27,8 @@ variable (either directly, or hidden in a library call).
 		"fmt"
 		"log"
 
-		"github.com/bugnanetwork/bugnad/util"
-		"github.com/bugnanetwork/bugnad/domain/dagconfig"
+		"github.com/wombatlabs/bugnad/util"
+		"github.com/wombatlabs/bugnad/domain/dagconfig"
 	)
 
 	var testnet = flag.Bool("testnet", false, "operate on the testnet Bugna network")

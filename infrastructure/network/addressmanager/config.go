@@ -3,7 +3,7 @@ package addressmanager
 import (
 	"net"
 
-	"github.com/bugnanetwork/bugnad/infrastructure/config"
+	"github.com/wombatlabs/bugnad/infrastructure/config"
 )
 
 // Config is a descriptor which specifies the AddressManager instance configuration.

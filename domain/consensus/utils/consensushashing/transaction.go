@@ -3,12 +3,12 @@ package consensushashing
 import (
 	"io"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/serialization"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/serialization"
 
-	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/hashes"
-	"github.com/bugnanetwork/bugnad/domain/consensus/utils/transactionhelper"
-	"github.com/bugnanetwork/bugnad/util/binaryserializer"
+	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/hashes"
+	"github.com/wombatlabs/bugnad/domain/consensus/utils/transactionhelper"
+	"github.com/wombatlabs/bugnad/util/binaryserializer"
 	"github.com/pkg/errors"
 )
 
