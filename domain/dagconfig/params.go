@@ -8,14 +8,14 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/wombatlabs/bugnad/domain/consensus/model/externalapi"
+	"github.com/bugnanetwork/bugnad/domain/consensus/model/externalapi"
 
-	"github.com/wombatlabs/bugnad/app/appmessage"
-	"github.com/wombatlabs/bugnad/util/network"
+	"github.com/bugnanetwork/bugnad/app/appmessage"
+	"github.com/bugnanetwork/bugnad/util/network"
 
 	"github.com/pkg/errors"
 
-	"github.com/wombatlabs/bugnad/util"
+	"github.com/bugnanetwork/bugnad/util"
 )
 
 // These variables are the DAG proof-of-work limit parameters for each default
@@ -213,12 +213,7 @@ var MainnetParams = Params{
 	Net:         appmessage.Mainnet,
 	RPCPort:     "38138",
 	DefaultPort: "38139",
-	DNSSeeds: []string{
-		"seeder1-mainnet.bugna.org",
-		// "seeder2-mainnet.bugna.org",
-		// "seeder3-mainnet.bugna.org",
-		// "seeder4-mainnet.bugna.org",
-	},
+	DNSSeeds: []string{},
 
 	// DAG parameters
 	GenesisBlock:                    &genesisBlock,
